@@ -1,37 +1,164 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="myPortfolio.css">
+    <title>Carol Xiao</title>
+</head>
 
-You can use the [editor on GitHub](https://github.com/Carol0730/carolxiaoweb/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<body>
+<script src="myPortfolio.js"></script>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<header class="header">
+<h1 id="logo" style="flex-basis:80%">
+    <a href="myPortfolio.html">
+        <img src="https://i.imgur.com/pyqhHzc.png" width="50px" height="50px">
+<!--        alt="Carol Xiao"-->
+    </a>
+</h1>
+<div class="nav" style="flex-basis:20%">
+        <ul>
+            <li>
+                <div class="dropDown">
+                <a href="#Works">💻 Works</a>
+                    <div class="dropDown_content">
+                        <a class="dropDownContent" href="Kilight.html">Kilight</a>
+                        <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
+                        <a class="dropDownContent" href="https://www.behance.net/gallery/99208945/-The-Little-Planet" target="_blank">Little Planet</a>
 
-### Markdown
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="about.html">🐰 About</a>
+            </li>
+            <li>
+                <a href="https://www.cakeresume.com/zhuyuanxiao0" target="_blank">⛺️ Resume</a>
+            </li>
+        </ul>
+</div>
+</header>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+<section id="firstSection">
+    <img  class="avatar" src="https://i.imgur.com/8U5sUN0.jpg" height="150px" width="auto" alt="Avatar">
+    <div>
+        <strong class="title" style="letter-spacing:0.03em;">Hi👋🏻👋🏻👋🏻 <br>I’m Carol Xiao!</strong>
+        <br>
+        <p class="briefing">I am a junior majoring in Foreign Language at Chiao Tung University.<br>My goal is to become a professional UIUX Designer！</p>
+    </div>
 
-# Header 1
-## Header 2
-### Header 3
+</section>
+<br>
 
-- Bulleted
-- List
+<div>
+    <div class="contentLine"> Projects</div>
 
-1. Numbered
-2. List
+    <article>
+        <div  class="center-block">
+            <div class="content">
+                <p class="timeline">2021 Current</p>
+                <strong class="title" style="letter-spacing: 0.05em;">UX Researcher - Kilight</strong>
+                <p class="briefing">To create connection between empty-nest period mother and child.</p>
+                <strong class="hashtag" style="letter-spacing: 0.05em;">＃IOS APP #Parent-Child #UX Research</strong>
+                <br>
+                <a href="Kilight.html" class="readMore">Read more ...</a>
+            </div>
+            <div class="contentImg">
+                <img src="https://i.imgur.com/NWKIq8P.png" width="50%" height="auto">
+            </div>
+        </div>
+        <div class="contentLine">
+            <hr>
+        </div>
+    </article>
 
-**Bold** and _Italic_ and `Code` text
+    <article>
+        <div  class="center-block">
+            <div class="content">
+                <p class="timeline">2020</p>
+                <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Study Cat</strong>
+                <p class="briefing">Aiming at students. We have developed a pomodoro software that can record task execution and help everyone develop concentration.</p>
+                <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>
+                <br>
+                <a href="StudyCat.html" class="readMore">Read more ...</a>
+            </div>
+            <div class="contentImg">
+                <img src="https://i.imgur.com/ymUOu9o.png" width="80%" height="auto">
+            </div>
+        </div>
+        <div class="contentLine">
+            <hr>
+        </div>
+    </article>
 
-[Link](url) and ![Image](src)
-```
+<!--    <article>-->
+<!--        <div  class="center-block">-->
+<!--            <div class="content" style="flex-basis:60%">-->
+<!--                <p class="timeline">2020</p>-->
+<!--                <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Lockery</strong>-->
+<!--                <p class="briefing">Making traveler who are eager to find lockers to get locker information immediately.</p>-->
+<!--                <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>-->
+<!--                <br>-->
+<!--                <a href="StudyCat.html" class="readMore">Read more ...</a>-->
+<!--            </div>-->
+<!--            <div style="flex-basis:40%" class="contentImg">-->
+<!--                <img src="https://i.imgur.com/fliNeyS.png" width="80%" height="auto">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="contentLine">-->
+<!--            <hr>-->
+<!--        </div>-->
+<!--    </article>-->
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<!--    <article>-->
+<!--        <div  class="center-block">-->
+<!--            <div class="content">-->
+<!--                <p class="timeline">2018</p>-->
+<!--                <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - The Control Plate</strong>-->
+<!--                <p class="briefing">In order to solve the problem of too complicated technology products, we designed a system with magnets to control any device through APP.</p>-->
+<!--                <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>-->
+<!--                <br>-->
+<!--                <a href="" class="readMore">Read more ...</a>-->
+<!--            </div>-->
+<!--            <div class="contentImg">-->
+<!--                <img src="https://i.imgur.com/FxzDfFb.png" width="80%" height="auto">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="contentLine">-->
+<!--            <hr>-->
+<!--        </div>-->
+<!--    </article>-->
 
-### Jekyll Themes
+    <article>
+        <div  class="center-block">
+            <div class="content">
+                <p class="timeline">2020</p>
+                <strong class="title" style="letter-spacing: 0.05em;">Story Book Design - Little Planet</strong>
+                <p class="briefing">Inspired by the poem - William Blake's A Grain of Sand. </p>
+                <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>
+                <br>
+                <a href="https://www.behance.net/gallery/99208945/-The-Little-Planet" class="readMore" target="_blank">To Behance ...</a>
+            </div>
+            <div class="contentImg">
+                <img src="https://i.imgur.com/3weBnnA.png" width="80%" height="auto">
+            </div>
+        </div>
+        <div class="contentLine">
+<!--            <hr>-->
+        </div>
+    </article>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Carol0730/carolxiaoweb/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+</div>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<footer>
+    <br>
+    <div>
+    <a id="contactMe" href="mailto:zhuyuanxia0.fl07@nctu.edu.tw"><span>ZHUYUANXIAO@GMAIL.COM</span></a>
+    </div>
+    <br>
+    <p>&copy; CAROL XIAO 2021</p>
+    <br>
+</footer>
+</body>
+</html>
