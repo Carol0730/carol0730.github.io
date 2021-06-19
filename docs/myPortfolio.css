@@ -171,7 +171,7 @@ div.img-block{
     strong.title{
         font-size:20px;
     }
-    p.briefing, strong.hashtag, a.readMore{
+    p.briefing,{
         font-size:20px;
         line-height:22px;
     }
