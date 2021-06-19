@@ -2,14 +2,14 @@
 
 .header{
     display: flex;
-    background-color: #f1f1f1;
+    background-color:white;
 }
 footer{
     bottom: 0;
     width: 100%;
     height: auto;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color:#f1f1f1;
 }
 #logo{
     width: 50px;
@@ -18,6 +18,7 @@ footer{
 }
 ul{
     width: 330px;
+    margin-top:15px;
     list-style-type:none;
     display: grid;
     grid-gap:20px;
@@ -65,6 +66,18 @@ img{
     width: 100%;
     height: 350px;
 }
+#SCfirstSection{
+    background-color:#FBFBFB;
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+#KLfirstSection{
+    background-color:#FFF8E8;
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
 section, article, #contactMe{
     alignment: center;
     text-align: center;
@@ -97,12 +110,12 @@ p.briefing, strong.hashtag, a.readMore{
     align-items:center;
     justify-content:center;
     width:75%;
-    height:450px;
+    height:400px;
     line-height:50px;
     /*font-size:30px;*/
     text-align:center;
     border-radius: 10px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 div.content{
@@ -110,11 +123,10 @@ div.content{
     margin:25px;
     flex-basis:60%;
 }
-div.contentImg{
+.contentImg{
     margin:0 10px 0 10px;
     flex-basis:40%;
 }
-
 /*div.center-block {*/
 /*    margin:auto;*/
 /*    height:100px;*/
