@@ -75,6 +75,10 @@ div#nameAvatar{
     top:-73%;
     width: 400px;
 }
+img.mySelf{
+    width:auto;
+    height:350px;
+}
 #firstSection{
     background-color: #f1f1f1;
     position: relative;
@@ -206,6 +210,12 @@ div.img-block{
     div.contentImg{
         margin:20px;
     }
+    div#nameAvatar{
+        position:relative;
+        left:50%;
+        top:-703%;
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -227,5 +237,8 @@ div.img-block{
     p.briefing, strong.hashtag, a.readMore{
         font-size:18px;
         line-height:20px;
+    }
+    img.mySelf{
+        visibility: hidden;
     }
 }
