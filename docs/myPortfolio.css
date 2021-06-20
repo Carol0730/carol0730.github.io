@@ -25,9 +25,15 @@ ul{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .nameTitle{
-    text-align: center;
-
+    position:relative;
+    left:14%;
+    font-size:30px;
 }
+.nameBriefing{
+    position:relative;
+    left:14%;
+    font-size:20px;
+ }
 a:link, a:visited,p {
     text-decoration: none;
     color: dimgray;
@@ -58,29 +64,39 @@ a:hover{
 .dropDownContent{
     display: block;
 }
-img.avatar{
-    border-radius: 20%;
-}
 img{
     border-radius: 10%;
+}
+div#nameAvatar{
+    position:relative;
+    left:60%;
+    top:-65%;
 }
 #firstSection{
     background-color: #f1f1f1;
     position: relative;
     width: 100%;
     height: 350px;
+    text-align:left;
 }
-#SCfirstSection{
+#scFirstSection{
     background-color:#FBFBFB;
     position: relative;
     width: 100%;
     height: 350px;
 }
-#KLfirstSection{
+#klFirstSection{
     background-color:#FFF8E8;
     position: relative;
     width: 100%;
     height: 350px;
+}
+#abFirstSection{
+    background-color: #f1f1f1;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    text-align:center;
 }
 section, article, #contactMe{
     alignment: center;
