@@ -24,6 +24,10 @@ ul{
     grid-gap:20px;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.nameTitle{
+    text-align: center;
+
+}
 a:link, a:visited,p {
     text-decoration: none;
     color: dimgray;
@@ -100,7 +104,7 @@ p.boldBriefing{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-p.briefing, strong.hashtag, a.readMore{
+p.briefing, a.readMore{
     font-size:20px;
     line-height:30px;
 }
