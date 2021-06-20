@@ -34,7 +34,7 @@ ul{
     position:relative;
     left:14%;
     font-size:20px;
-    width: 350px;
+    width: 330px;
  }
 a:link, a:visited,p {
     text-decoration: none;
@@ -72,7 +72,7 @@ img{
 div#nameAvatar{
     position:relative;
     left:50%;
-    top:-65%;
+    top:-73%;
     width: 400px;
 }
 #firstSection{
