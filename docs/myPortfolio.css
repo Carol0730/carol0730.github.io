@@ -33,7 +33,7 @@ ul{
     width: 350px;
  }
 div#nameAvatar{
-    align-items:flex-end;
+    align-items: baseline;
 }
 a:link, a:visited,p {
     text-decoration: none;
