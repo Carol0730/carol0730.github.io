@@ -28,11 +28,13 @@ ul{
     position:relative;
     left:14%;
     font-size:30px;
+    width: 100px;
 }
 .nameBriefing{
     position:relative;
     left:14%;
     font-size:20px;
+    width: 350px;
  }
 a:link, a:visited,p {
     text-decoration: none;
@@ -71,13 +73,15 @@ div#nameAvatar{
     position:relative;
     left:50%;
     top:-65%;
+    width: 400px;
 }
 #firstSection{
     background-color: #f1f1f1;
     position: relative;
     width: 100%;
     height: 350px;
-    text-align:left;
+    alignment: center;
+    text-align: left;
 }
 #scFirstSection{
     background-color:#FBFBFB;
