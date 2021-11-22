@@ -11,17 +11,16 @@
 <script src="myPortfolio.js"></script>
 
 <header class="header">
-<h1 id="logo" style="flex-basis:80%">
+<h1 id="logo" style="flex-basis:8%">
     <a href="index.html">
         <img src="https://i.imgur.com/pyqhHzc.png" width="50px" height="50px">
-<!--        alt="Carol Xiao"-->
     </a>
 </h1>
-<div class="nav" style="flex-basis:20%">
+<div id="menu" style="flex-basis:82%">
         <ul>
             <li>
                 <div class="dropDown">
-                <a href="#Works">💻 Works</a>
+                <a class="pagelink" href="#Works">💻 Works</a>
                     <div class="dropDown_content">
                         <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
                         <a class="dropDownContent" href="Kilight.html">Kilight</a>
@@ -31,31 +30,46 @@
                 </div>
             </li>
             <li>
-                <a href="about.html">🐰 About</a>
+                <a class="pagelink" href="about.html">🐰 About</a>
             </li>
             <li>
-                <a href="https://www.cakeresume.com/zhuyuanxiao0" target="_blank">⛺️ Resume</a>
+                <a class="pagelink" href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing" target="_blank">⛺️ Resume</a>
             </li>
         </ul>
+</div>
+<div id="headerCTAPosition" style="flex-basis:10%">
+    <div>
+        <a href="mailto:zhuyuanxiao0@gmail.com">
+            <button class="headerCTA" >
+            <span>Contact Me</span>
+            </button>
+        </a>
+    </div>
 </div>
 </header>
 
 
 <div id="firstSection">
-    <div  class="firstSection">
-<!--    <img  class="avatar" src="https://i.imgur.com/8U5sUN0.jpg" height="150px" width="auto" alt="Avatar">-->
-    <div>
-        <br><br><br><br>
-        <strong class="nameTitle" style="letter-spacing:0.03em;">Hi👋🏻👋🏻👋🏻 <br>I am Carol !</strong>
-        <br>
-        <p class="nameBriefing">交通大學外文系兼設計跨域的大三學生<br>希望成為厲害的 UIUX 設計師！</p>
+    <div> 
+        <p class="nameTitle" style="letter-spacing:0.03em;">I am Carol.<br>A UIUX Designer!</p>
+        <p class="nameBriefing">I enjoy creating delightful,<br> human-centered digital experiences.</p>
+        <div>
+            <a href="#Works">
+                <button class="CTA2">
+                <p class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                </p>
+                <span class="button-text">See My Projects</span>
+                </button>
+            </a>
+        </div>
     </div>
     <div id="nameAvatar">
-    <img src="https://i.imgur.com/pV1mtpo.png" width="auto" height="350px">
-    </div>
+        <img src="https://i.imgur.com/aGRggUf.jpg" width="auto" height="500px">
     </div>
 </div>
-<article>
+
+<article id="Works">
     <div class="center-block">
         <div class="content">
             <p class="briefing">2020 Line Fresh 獲獎專案</p>
@@ -190,7 +204,6 @@
             </a>
         </div>
         <div class="contentLine">
-<!--            <hr>-->
         </div>
     </article>
 
@@ -199,11 +212,33 @@
 <footer>
     <br>
     <div>
-    <a id="contactMe" href="mailto:zhuyuanxia0.fl07@nctu.edu.tw"><span>zhuyuanxiao0@gmail.com</span></a>
+    <a id="contactMe" href="mailto:zhuyuanxiao0@gmail.com"><span>zhuyuanxiao0@gmail.com</span></a>
     </div>
     <br>
     <p>&copy; CAROL XIAO 2021</p>
     <br>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 450, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
 </body>
 </html>
