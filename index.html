@@ -4,93 +4,153 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="myPortfolio.css">
     <title>Carol Xiao</title>
+    <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body>
 <script src="myPortfolio.js"></script>
 
 <header class="header">
-<h1 id="logo" style="flex-basis:80%">
+<h1 id="logo" style="flex-basis:8%">
     <a href="index.html">
         <img src="https://i.imgur.com/pyqhHzc.png" width="50px" height="50px">
-<!--        alt="Carol Xiao"-->
     </a>
 </h1>
-<div class="nav" style="flex-basis:20%">
+<div id="menu" style="flex-basis:82%">
         <ul>
             <li>
                 <div class="dropDown">
-                <a href="#Works">💻 Works</a>
+                <a class="pagelink" href="#Works">💻 Works</a>
                     <div class="dropDown_content">
-                        <a class="dropDownContent" href="Kilight.html">Kilight</a>
                         <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
+                        <a class="dropDownContent" href="Kilight.html">Kilight</a>
                         <a class="dropDownContent" href="https://www.behance.net/gallery/99208945/-The-Little-Planet" target="_blank">Little Planet</a>
 
                     </div>
                 </div>
             </li>
             <li>
-                <a href="about.html">🐰 About</a>
+                <a class="pagelink" href="about.html">🐰 About</a>
             </li>
             <li>
-                <a href="https://www.cakeresume.com/zhuyuanxiao0" target="_blank">⛺️ Resume</a>
+                <a class="pagelink" href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing" target="_blank">⛺️ Resume</a>
             </li>
         </ul>
+</div>
+<div id="headerCTAPosition" style="flex-basis:10%">
+    <div>
+        <a href="mailto:zhuyuanxiao0@gmail.com">
+            <button class="headerCTA" >
+            <span>Contact Me</span>
+            </button>
+        </a>
+    </div>
 </div>
 </header>
 
 
-<section id="firstSection">
-    <img  class="avatar" src="https://i.imgur.com/8U5sUN0.jpg" height="150px" width="auto" alt="Avatar">
-    <div>
-        <strong class="title" style="letter-spacing:0.03em;">Hi👋🏻👋🏻👋🏻 <br>I’m Carol Xiao!</strong>
-        <br>
-        <p class="briefing">I am a junior majoring in Foreign Language at Chiao Tung University.<br>My goal is to become a professional UIUX Designer！</p>
+<div id="firstSection">
+    <div> 
+        <p class="nameTitle" style="letter-spacing:0.03em;">I am Carol.<br>A UIUX Designer!</p>
+        <p class="nameBriefing">I enjoy creating delightful,<br> human-centered digital experiences.</p>
+        <div>
+            <a href="#Works">
+                <button class="CTA2">
+                <p class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                </p>
+                <span class="button-text">See My Projects</span>
+                </button>
+            </a>
+        </div>
+    </div>
+    <div id="nameAvatar">
+        <img src="https://i.imgur.com/aGRggUf.jpg" width="auto" height="500px">
+    </div>
+</div>
+
+<article id="Works">
+    <div class="center-block">
+        <div class="content">
+            <p class="briefing">2020 Line Fresh 獲獎專案</p>
+            <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Study Cat</strong><br>
+            <p class="briefing" >＃Chat-bot #Pomodoro #UI Design #Front-end</p>
+            <p class="briefing">欲解決學生要完成許多作業或專案卻無法有效利用時間的問題。</p>
+            <a href="StudyCat.html" class="readMore">Read more ...</a>
+        </div>
+
+        <a href="StudyCat.html" class="contentImg">
+            <img src="https://i.imgur.com/zKZ8YuK.png" width="100%" height="auto">
+        </a>
+
+    </div>
+</article>
+
+    <div class="contentLine">
+        <hr>
     </div>
 
-</section>
-<br>
+<!--<EN article>-->
+<!--    <div  class="center-block">-->
+<!--        <div class="content">-->
+<!--            <p class="timeline">2020</p>-->
+<!--            <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Study Cat</strong>-->
+<!--            <p class="briefing">Aiming at students. We have developed a pomodoro software that can record task execution and help everyone develop concentration.</p>-->
+<!--            <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>-->
+<!--            <br>-->
+<!--            <a href="StudyCat.html" class="readMore">Read more ...</a>-->
+<!--        </div>-->
+<!--        <div class="contentImg">-->
+<!--            <img src="https://i.imgur.com/ymUOu9o.png" width="80%" height="auto">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="contentLine">-->
+<!--        <hr>-->
+<!--    </div>-->
+<!--</article>-->
 
 <div>
-    <div class="contentLine"> Projects</div>
 
     <article>
-        <div  class="center-block">
+        <div class="center-block">
             <div class="content">
-                <p class="timeline">2021 Current</p>
-                <strong class="title" style="letter-spacing: 0.05em;">UX Researcher - Kilight</strong>
-                <p class="briefing">To create connection between empty-nest period mother and child.</p>
-                <strong class="hashtag" style="letter-spacing: 0.05em;">＃IOS APP #Parent-Child #UX Research</strong>
-                <br>
+                <p class="briefing">2021 Current 進行中的專案</p>
+                <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Kilight</strong><br>
+                <p class="briefing">＃APP #Parent-Child #UX Research</p>
+                <p class="briefing">讓正經歷子女離家的中年婦女，能有一個機會增進親子間的聯繫，<br>欲解決中年婦女無法與離家子女保持聯繫的問題。</p>
                 <a href="Kilight.html" class="readMore">Read more ...</a>
             </div>
-            <div class="contentImg">
-                <img src="https://i.imgur.com/NWKIq8P.png" width="50%" height="auto">
-            </div>
+            <a href="Kilight.html" class="contentImg">
+                <img src="https://i.imgur.com/7XF1YYz.png" width="100%" height="auto">
+            </a>
         </div>
         <div class="contentLine">
             <hr>
         </div>
     </article>
 
-    <article>
-        <div  class="center-block">
-            <div class="content">
-                <p class="timeline">2020</p>
-                <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Study Cat</strong>
-                <p class="briefing">Aiming at students. We have developed a pomodoro software that can record task execution and help everyone develop concentration.</p>
-                <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>
-                <br>
-                <a href="StudyCat.html" class="readMore">Read more ...</a>
-            </div>
-            <div class="contentImg">
-                <img src="https://i.imgur.com/ymUOu9o.png" width="80%" height="auto">
-            </div>
-        </div>
-        <div class="contentLine">
-            <hr>
-        </div>
-    </article>
+<!--<div>-->
+
+<!--    <EN article>-->
+<!--        <div  class="center-block">-->
+<!--            <div class="content">-->
+<!--                <p class="timeline">2021 Current</p>-->
+<!--                <strong class="title" style="letter-spacing: 0.05em;">UX Researcher - Kilight</strong>-->
+<!--                <p class="briefing">To create connection between empty-nest period mother and child.</p>-->
+<!--                <strong class="hashtag" style="letter-spacing: 0.05em;">＃IOS APP #Parent-Child #UX Research</strong>-->
+<!--                <br>-->
+<!--                <a href="Kilight.html" class="readMore">Read more ...</a>-->
+<!--            </div>-->
+<!--            <div class="contentImg">-->
+<!--                <img src="https://i.imgur.com/NWKIq8P.png" width="50%" height="auto">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="contentLine">-->
+<!--            <hr>-->
+<!--        </div>-->
+<!--    </article>-->
+
+
 
 <!--    <article>-->
 <!--        <div  class="center-block">-->
@@ -131,21 +191,19 @@
 <!--    </article>-->
 
     <article>
-        <div  class="center-block">
+        <div class="center-block">
             <div class="content">
-                <p class="timeline">2020</p>
-                <strong class="title" style="letter-spacing: 0.05em;">Story Book Design - Little Planet</strong>
-                <p class="briefing">Inspired by the poem - William Blake's A Grain of Sand. </p>
-                <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>
-                <br>
+                <p class="briefing">2020</p>
+                <strong class="title" style="letter-spacing: 0.05em;">繪本設計 - Little Planet</strong><br>
+                <p class="briefing" >＃Picture Book #Graphics</p>
+                <p class="briefing">被 William Blake 的「一沙一世界」所啟發，而製作出的繪本</p>
                 <a href="https://www.behance.net/gallery/99208945/-The-Little-Planet" class="readMore" target="_blank">To Behance ...</a>
             </div>
-            <div class="contentImg">
-                <img src="https://i.imgur.com/3weBnnA.png" width="80%" height="auto">
-            </div>
+            <a href="https://www.behance.net/gallery/99208945/-The-Little-Planet" class="contentImg" target="_blank">
+                <img src="https://i.imgur.com/3weBnnA.png" width="100%" height="auto">
+            </a>
         </div>
         <div class="contentLine">
-<!--            <hr>-->
         </div>
     </article>
 
@@ -154,11 +212,33 @@
 <footer>
     <br>
     <div>
-    <a id="contactMe" href="mailto:zhuyuanxia0.fl07@nctu.edu.tw"><span>ZHUYUANXIAO@GMAIL.COM</span></a>
+    <a id="contactMe" href="mailto:zhuyuanxiao0@gmail.com"><span>zhuyuanxiao0@gmail.com</span></a>
     </div>
     <br>
     <p>&copy; CAROL XIAO 2021</p>
     <br>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 450, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
 </body>
 </html>
