@@ -50,6 +50,10 @@ button.headerCTA:hover  {
     box-shadow:  4px 4px 10px 1px rgba(0, 0, 0, 0.2);;
   }
 
+strong.title{
+    font-size:30px;
+    margin-bottom: 24px;
+}
 .nameTitle{
     color: #000000;
     font-size:48px;
@@ -138,6 +142,7 @@ button:hover .button-text {
 div#nameAvatar{
     align-items: flex-end;
 }
+
 a:link, a:visited,p {
     text-decoration: none;
     color: dimgray;
@@ -172,6 +177,7 @@ a:hover{
 img{
     border-radius: 10%;
 }
+
 #firstSection{
     background-color: #ffff;
     width: 80%;
@@ -183,17 +189,108 @@ img{
     justify-content: space-between;
     align-items: center;
 }
+
+#Works{
+    height: 24px;
+}
+.projectsTitle{
+    font-size:24px;
+    text-align: center;
+    margin-bottom: -40px;
+}
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    margin: 136px auto;
+    box-shadow: 0 70px 140px 0 rgb(130 136 171 / 20%);
+    background: #fff;
+    line-height: 1.4;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  /* .blog-card:hover .photo {
+    transform: scale(1.3) rotate(3deg);
+  }*/
+  .blog-card .meta {
+    position: relative;
+  }
+  .blog-card .photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+  }
+  .blog-card .description {
+    margin: auto;
+    background: #fff;
+    position: relative;
+  }
+  .blog-card .description h1{
+    font-size: 24px;
+    padding-left: 40px;
+  }
+  .blog-card .description .read-more{
+    font-size: 16px;
+    padding-left: 40px;
+  }
+  .blog-card .description h2 {
+    font-size: 16px;
+    line-height: px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    /* color: #a2a2a2; */
+    padding: 40px;
+  }
+  .description {
+    text-align: left;
+  }
+
+  .blog-card .description .read-more a:after {
+    content: "→";
+    font-family: FontAwesome;
+    margin-left: -10px;
+    opacity: 0;
+    vertical-align: middle;
+    transition: margin 0.3s, opacity 0.3s;
+  }
+  .blog-card .description .read-more a:hover:after {
+    margin-left: 5px;
+    opacity: 1;
+  }
+
+  @media (min-width: 640px) {
+    .blog-card {
+      flex-direction: row;
+      width:70%;
+      height:400px;
+    }
+    .blog-card .meta {
+      flex-basis: 50%;
+      height: auto;
+    }
+    .blog-card .description {
+      flex-basis: 50%;
+    }
+  }
+
 #scFirstSection{
     background-color:#FBFBFB;
     position: relative;
     width: 100%;
     height: 350px;
+    text-align:center;
 }
 #klFirstSection{
     background-color:#FFF8E8;
     position: relative;
     width: 100%;
     height: 350px;
+    text-align:center;
 }
 #abFirstSection{
     background-color: #f1f1f1;
@@ -202,19 +299,16 @@ img{
     height: 350px;
     text-align:center;
 }
-section, article, #contactMe{
+section, article{
+    align-items: center;
     text-align: center;
 }
-
 div.contentLine{
     width:75%;
     margin:30px auto 30px auto;
 }
 hr{
     border: 2px solid whitesmoke;
-}
-strong.title{
-    font-size:30px;
 }
 p.boldBriefing{
     color: black;
@@ -235,35 +329,11 @@ p.briefing, a.readMore{
     width:75%;
     height:400px;
     line-height:50px;
-    /*font-size:30px;*/
     text-align:center;
     border-radius: 10px;
     background-color: white;
 }
 
-div.content{
-    text-align:left;
-    margin:25px;
-    flex-basis:60%;
-}
-.contentImg{
-    margin:0 10px 0 10px;
-    flex-basis:40%;
-}
-/*div.center-block {*/
-/*    margin:auto;*/
-/*    height:100px;*/
-/*    !*border:10px solid floralwhite;*!*/
-/*    transition: all .15s linear;*/
-/*    height:550px;*/
-/*    transition: all .15s linear;*/
-/*}*/
-
-/*div.center-block div:hover {*/
-/*    height:100%;*/
-/*    line-height:100%;*/
-/*    cursor:pointer;*/
-/*}*/
 div.project-block{
     margin:auto;
     display: block;
@@ -275,15 +345,6 @@ div.project-block{
     text-align:center;
     border-radius: 10px;
 }
-div.img-block{
-    margin:auto;
-    display: block;
-    align-items:center;
-    justify-content:center;
-    width:80%;
-    height:auto;
-    text-align:center;
-}
 
 @media screen and (max-width: 900px){
     .center-block{
@@ -291,7 +352,7 @@ div.img-block{
         flex-direction: column;
         height:100%;
     }
-    strong.title{
+    .title{
         font-size:20px;
     }
     p.briefing{
@@ -320,7 +381,7 @@ div.img-block{
     div.contentImg{
         margin:20px;
     }
-    strong.title{
+    .title{
         font-size:18px;
     }
     p.briefing, strong.hashtag, a.readMore{
