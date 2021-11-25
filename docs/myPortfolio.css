@@ -114,6 +114,7 @@ button.CTA2 .circle .icon.arrow::before {
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
 }
+
 button.CTA2 .button-text {
   transition: width 0.45s cubic-bezier(0.85, 0, 0.076, 1);
   position: absolute;
@@ -193,6 +194,7 @@ img{
 #Works{
     height: 24px;
 }
+
 .projectsTitle{
     font-size:24px;
     text-align: center;
@@ -241,6 +243,7 @@ img{
     background: #fff;
     position: relative;
   }
+  
   .blog-card .description h1{
     font-size: 24px;
     padding-left: 40px;
@@ -314,7 +317,7 @@ p.boldBriefing{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-p.briefing, a.readMore{
+p.briefing{
     font-size:20px;
     line-height:30px;
 }
@@ -343,6 +346,13 @@ div.project-block{
     border-radius: 10px;
 }
 
+@media (min-width: 320px) {
+   
+  }
+
+@media (min-width: 768px) {
+ 
+  }
 @media (min-width: 1920px) {
     #firstSection{
         width:1536px;
@@ -368,7 +378,7 @@ div.project-block{
 }
 
 
-
+/* 
 @media screen and (max-width: 900px){
     .center-block{
         display: flex;
@@ -410,4 +420,4 @@ div.project-block{
         font-size:18px;
         line-height:20px;
     }
-}
+} */
