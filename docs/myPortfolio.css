@@ -211,6 +211,18 @@ img{
   /* .blog-card:hover .photo {
     transform: scale(1.3) rotate(3deg);
   }*/
+  .blog-card {
+    flex-direction: row;
+    width:70%;
+    height:400px;
+  }
+  .blog-card .meta {
+    flex-basis: 50%;
+    height: auto;
+  }
+  .blog-card .description {
+    flex-basis: 50%;
+  }
   .blog-card .meta {
     position: relative;
   }
@@ -239,7 +251,6 @@ img{
   }
   .blog-card .description h2 {
     font-size: 16px;
-    line-height: px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing:2px;
@@ -263,20 +274,6 @@ img{
     opacity: 1;
   }
 
-  @media (min-width: 640px) {
-    .blog-card {
-      flex-direction: row;
-      width:70%;
-      height:400px;
-    }
-    .blog-card .meta {
-      flex-basis: 50%;
-      height: auto;
-    }
-    .blog-card .description {
-      flex-basis: 50%;
-    }
-  }
 
 #scFirstSection{
     background-color:#FBFBFB;
@@ -346,6 +343,32 @@ div.project-block{
     border-radius: 10px;
 }
 
+@media (min-width: 1920px) {
+    #firstSection{
+        width:1536px;
+    }
+    .blog-card {
+      flex-direction: row;
+      width:1344px;
+      height:400px;
+    }
+    .blog-card .meta {
+      flex-basis: 50%;
+      height: auto;
+    }
+    .blog-card .description {
+      flex-basis: 50%;
+    }
+  }
+@media (min-width: 2024px) {
+    .header{
+        width: 2024px;
+        margin: auto;
+    }
+}
+
+
+
 @media screen and (max-width: 900px){
     .center-block{
         display: flex;
@@ -367,7 +390,6 @@ div.project-block{
         margin:20px;
     }
 }
-
 @media screen and (max-width: 480px) {
     .center-block{
         display: flex;
