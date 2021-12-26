@@ -5,8 +5,12 @@
     <link rel="stylesheet" type="text/css" href="myPortfolio.css">
     <title>Project-Kilight</title>
     <link rel="shortcut icon" href="favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=devide-width, initial-scale=1">
 </head>
-
 <body>
 <script src="myPortfolio.js"></script>
 
@@ -17,25 +21,25 @@
         </a>
     </h1>
     <div id="menu" style="flex-basis:82%">
-            <ul>
-                <li>
-                    <div class="dropDown">
-                        <a class="pagelink" href="index.html#Works">Works</a>
-                        <div class="dropDown_content">
-                            <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
-                            <a class="dropDownContent" href="Kilight.html">Kilight</a>
-                            <a class="dropDownContent" href="https://www.behance.net/gallery/99208945/-The-Little-Planet" target="_blank">Little Planet</a>
-    
-                        </div>
+        <ul class="headerUl">
+            <li>
+                <div class="dropDown">
+                    <a class="pagelink" href="index.html#Works">Works</a>
+                    <div class="dropDown_content">
+                        <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
+                        <a class="dropDownContent" href="Kilight.html">Kilight</a>
+                        <a class="dropDownContent" href="https://www.behance.net/gallery/99208945/-The-Little-Planet" target="_blank">Little Planet</a>
+
                     </div>
-                </li>
-                <li>
-                    <a class="pagelink" href="about.html">About</a>
-                </li>
-                <li>
-                    <a class="pagelink" href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing" target="_blank">Resume</a>
-                </li>
-            </ul>
+                </div>
+            </li>
+            <li>
+                <a class="pagelink" href="about.html">About</a>
+            </li>
+            <li>
+                <a class="pagelink" href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing" target="_blank">Resume</a>
+            </li>
+        </ul>
     </div>
     <div id="headerCTAPosition" style="flex-basis:10%">
         <div>
@@ -50,50 +54,27 @@
 <body>
 
 <section id="klFirstSection">
-        <br><br>
-    <img src="https://i.imgur.com/NWKIq8P.png" height="200px" width="auto">
-    <div>
-        <strong class="title" style="letter-spacing: 0.05em;">Kilight</strong>
-        <br>
-    </div>
+    <strong class="kltitle" style="letter-spacing: 0.05em;">Kilight</strong>
+    <img class="klimg" src="https://i.imgur.com/bKMR6j6.png" >
+
 </section>
 <br>
 <article>
-    <div class="project-block">
-        <strong class="title" style="letter-spacing: 0.05em;">Introduction</strong>
-        <p class="boldBriefing">Background</p>
-        <p class="briefing">此專案是為參加2020林口跨界超越競賽的產品<br>最終晉級到複賽，比賽結束後，我們照著評審給的評語，將專案迭代、優化</p>
-        <p class="boldBriefing">Challenge
-        <p class="briefing">讓正經歷子女離巢期的中年婦女，能有一個管道重新聯繫親子間的關係、欲解決中年婦女想與離家子女無法保持聯繫的問題。</p>
-        <p class="boldBriefing">Idea</p>
-        <p class="briefing">以運動任務及交流信箱為親子共同任務，可獲得實質蔬果作為獎勵之養成類遊戲應用程式</p>
-        <p class="boldBriefing">Outcome</p>
-        <p class="briefing">滿意度（7.2/10）</p>
-        <p class="boldBriefing">Tools</p>
-        <p class="briefing">Figma、Miro、Procreate</p>
-        <p class="boldBriefing">Role </p>
-        <p class="briefing">在團隊中我的角色是<br>Team Leader/UX Researcher/UI Designer</p>
-
-    </div>
-
-</article>
-<div class="contentLine">
-    <hr>
-</div>
-
-<article>
-    <div class="project-block">
-        <strong class="title" style="letter-spacing: 0.05em;">Define User</strong>
-        <p class="boldBriefing">原始動機</p>
-        <p class="briefing">我們的起心動念是發現在市面上沒有以中年婦女為主要目標族群<br>的運動（健康照護）產品，因此想發展出以下產品讓這個族群可以被關心與照顧。</p>
-        <p class="boldBriefing">初步訪談</p>
-        <p class="briefing">初步訪談後，發現在這群婦女中大部分人因為身體狀況所以都有運動需求或習慣、<br>也同時因經歷小孩離巢期階段，所以大部分人希望多一點親人的陪伴，<br>所以我們決定以這兩項初衷，去發展出一個增進親子關係的運動軟體。</p>
-        <p class="boldBriefing">Persona</p>
-
-        <div class="img-block">
-            <img src="https://i.imgur.com/hRcKagl.png" width="100%" height="auto">
+    <strong class="title" style="letter-spacing: 0.05em;">Introduction</strong>
+    <div class="columnProjectBlock">
+        <div class="column">
+            <p class="boldBriefing">Background</p>
+            <p class="briefing">此專案是為參加 2020 林口跨界超越競賽的團隊，最終晉級到複賽。比賽結束後，我們照著評審給的評語，將專案迭代、優化。</p>
+            <!-- <br> -->
+            <p class="boldBriefing">Problem</p>
+            <p class="briefing">解決中年婦女與離家子女之聯繫問題。</p>
         </div>
-        <p class="briefing">主要TA:高運動動機媽媽/次要TA:離巢期孩子</p>
+        <div class="column">
+            <p class="boldBriefing">Idea</p>
+            <p class="briefing">以運動任務及交流信箱為親子共同任務，讓正經歷子女離巢期的中年婦女，增加機會聯繫親子間的關係。</p>
+            <p class="boldBriefing">My Role</p>
+            <p class="briefing">Team Leader/UX Researcher/UI Designer</p>
+        </div>
     </div>
 
 </article>
@@ -102,25 +83,14 @@
 </div>
 
 <article>
+    <strong class="title" style="letter-spacing: 0.05em;">Design Process</strong>
     <div class="project-block">
-        <strong class="title" style="letter-spacing: 0.05em;">User Research</strong>
-        <p class="boldBriefing">研究問題</p>
-        <p class="briefing"></p>
-        <p class="boldBriefing">痛點</p>
-        <p class="briefing">世代觀念價值觀相異<br>
-            和離巢期子女互動機會少<br>
-            更年期症狀的出現<br>
-        </p>
-        <p class="boldBriefing">POV</p>
-        <p class="briefing">一位以運動習慣來舒緩更年期症狀且子女正值離巢期的中年婦女，她需要和子女一起活動身體的機會，因為對她來說，能與子女互相關心生活與健康是很重要的<br><br>
-            洞見：與子女互相關心生活與健康
-        </p>
-        <p class="boldBriefing">HMW</p>
-        <p class="briefing">我們如何讓父母與子女間重新找回生活上的連結<br>
-            我們如何讓親子間互相聯繫變成一件好玩的事情<br>
-            我們如何提升親子之間相處的儀式感<br>
-            我們如何利用運動來聯繫親子關係<br>
-        </p>
+        <p class="boldBriefing">Stage 1 - Strategy & Scope </p>
+        <p class="briefing"> User survey → Persona → Define problem → Competitor analysis</p>
+        <p class="boldBriefing">Stage 2 - Structure & Skeleton </p>
+        <p class="briefing">Flow Chart → Wireframe  → Expert interview → 1st usability test </p>
+        <p class="boldBriefing">Stage 3 - Surface </p>
+        <p class="briefing">Iterateion → Story board → Mockup → Prototype → 2nd usability test</p>
     </div>
 
 </article>
@@ -129,8 +99,187 @@
 </div>
 
 <article>
+    <strong class="title" style="letter-spacing: 0.05em;">Stage 1 - Strategy & Scope </strong>
+    <div class="project-block"> 
+        <p class="boldBriefing">1-1. User Survey</p>
+        <p class="briefing">我們的起心動念是發現在市面上沒有以中年婦女為主要目標族群的運動（健康照護）產品，因此想發展出以下產品讓這個族群可以被關心與照顧。初步訪談後，發現在 45~60 歲的婦女中，大部分人因為身體狀況所以都有運動需求或習慣，也同時經歷小孩離巢期階段，所以希望多一點親人的陪伴。因此我們決定以這兩項發現，設計一個增進親子關係的運動軟體。</p>
+        <p class="boldBriefing">1-2. Persona</p>
+        <p class="briefing">主要TA: 高運動動機媽媽 / 次要TA:有運動習慣的離巢小孩</p>
+        <table class="fixed_headers">
+            <thead>
+              <tr>
+                <th></th>
+                <th>高運動動機媽媽<br><img src="https://i.imgur.com/35K9R8Q.png" height=80 width=80></img><br><p class="tableTitleContent">“為了不成為迎接新的自己，我要過著健康的生活！”</p></th>
+                <th>有運動習慣的離巢小孩<br><img src="https://i.imgur.com/FNUyavt.png" height=80 width=80></img><br><p class="tableTitleContent">“像風箏高飛探索世界，仍然心繫著家人”</p></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tableTitle">特質</td>
+                <td><p class="tableContent">
+                    1. 孩子離巢，需調整重心從家庭回到自己<br>
+                    2. 對孩子的生活和健康高度關注<br>
+                    3. 開始出現更年期及身體機能老化的症狀</p></td>
+                <td><p class="tableContent">
+                    1. 已有獨立生活的能力，在外唸書或就業<br>
+                    2. 和家人互動時間少，多以電話聯繫<br>
+                    3. 有自己的生活方式和偏好</p></td>
+              </tr>
+              <tr>
+                <td class="tableTitle">目標</td>
+                <td><p class="tableContent">透過運動保持健康，和孩子保持朋友般的互動</p></td>
+                <td><p class="tableContent">關心媽媽，同時保有自己的獨立性</p></td>
+              </tr>
+              <tr>
+                <td class="tableTitle">痛點</td>
+                <td><p class="tableContent">
+                    1. 希望和孩子有更多連結，目前限於電話與訊息<br>
+                    2. 和孩子溝通上常因觀念上的差異產生摩擦<br>
+                    3. 可接觸的運動多樣性較低</p></td>
+                <td><p class="tableContent">
+                    1. 生活重心外移，缺乏時間和心力關心媽媽<br>
+                    2. 和媽媽生活形態差異大，較少互動的機會<br>
+                    3. 希望被媽媽認同和了解，但常因為觀念差異而溝通不良</p></td>
+              </tr>
+              <tr>
+                <td class="tableTitle">需求</td>
+                <td><p class="tableContent">服務的行動、肯定的言詞</p></td>
+                <td><p class="tableContent">精心的時刻、服務的行動</p></td>
+              </tr>
+            </tbody>
+          </table>
+        <p class="boldBriefing">1-3. Define Problem</p>
+        <p class="centerBriefing">主要 TA 之痛點<br>
+            世代觀念價值觀相異、和離巢期子女互動機會少、更年期症狀的出現
+        </p>
+        <p class="centerBriefing">↓
+        </p>
+        <p class="centerBriefing">How Might We<br>
+            我們如何讓母親與子女間重新找回生活上的連結，把互相聯繫變成一件好玩的事情
+        </p>
+        <p class="boldBriefing">1-4. Competitor Analysis</p>
+        <p class="briefing">為符合婦女運動習慣，選擇居家健身以女性健身平台做為我們的競品。
+            分析後發現競品的回饋限於虛擬破關、以及沒有遠距與其他使用者互動的機制。針對這兩個機會點，我們制定了產品的策略以及構思可以提供的服務。</p>
+        <div class="flex-container">
+            <div class="table-odd-column">
+                <div class="table-content"></div>
+                <div class="table-content">產品目標</div>
+                <div class="table-content">目標用戶</div>
+                <div class="table-content">運動紀錄</div>
+                <div class="table-content">運動提醒</div>
+                <div class="table-content">回饋機制</div>
+                <div class="table-content">遠距互動</div>
+            </div>
+            <div class="table-even-column">
+                <div class="table-content-img">
+                    <img src="https://i.imgur.com/vB3Chfs.png" height=40 width=40></img>
+                    <p>Plaicise</p>
+                </div>
+                <div class="table-content">居家健身</div>
+                <div class="table-content">疫情居家者</div>
+                <div class="table-content">v</div>
+                <div class="table-content">v</div>
+                <div class="table-content">虛擬破關</div>
+                <div class="table-content">x</div>
+            </div>
+            <div class="table-odd-column">
+                <div class="table-content-img">
+                    <img src="https://i.imgur.com/06rXtye.png" height=40 width=40></img>
+                    <p>Active Arcade</p>
+                </div>
+                <div class="table-content">居家健身</div>
+                <div class="table-content">疫情居家者</div>
+                <div class="table-content">v</div>
+                <div class="table-content">v</div>
+                <div class="table-content">虛擬破關</div>
+                <div class="table-content">x</div>
+            </div>
+            <div class="table-even-column">
+                <div class="table-content-img">
+                    <img src="https://i.imgur.com/rAwdgkd.png" height=40 width=40></img>
+                    <p>Nuli</p>
+                </div>
+                <div class="table-content">居家健身</div>
+                <div class="table-content">女性</div>
+                <div class="table-content">v</div>
+                <div class="table-content">v</div>
+                <div class="table-content">x</div>
+                <div class="table-content">x</div>
+            </div>
+        </div>
+    </div>
+</article>
+<div class="contentLine">
+    <hr>
+</div>
+<article>
+    <strong class="title" style="letter-spacing: 0.05em;">Stage 2 - Structure & Skeleton</strong>
+    <div class="project-block"> 
+        <p class="boldBriefing">2-1. Flow Chart</p>
+        <div class="columnProjectBlockImg">
+                <img style="height: 50%; width: 50%;" class="columnImgWithBorder" src="https://i.imgur.com/gLCk5mu.png"></img>                
+                <img style="height: 50%; width: 50%;" class="columnImgWithBorder" src="https://i.imgur.com/ALYNfpa.png"></img>
+        </div>
+        
+        <p class="boldBriefing">2-2. Wireframe</p>
+        <p class="briefing">透過訪談以及競品分析，分析用戶需求以及定義好產品定位之後，構思功能設計出初版 Wireframe。</p>
+        <div class="columnProjectBlockImg">
+            <div style="width: 50%;" class="columnImg"><img style="height: 100%; width: 100%;" src="https://i.imgur.com/ren11KM.png"></img><p style="text-align: center;">帳號註冊、連結及親子樹機制</p></div>
+            <div style="width: 50%;" class="columnImg"><img style="height: 100%; width: 100%;" src="https://i.imgur.com/IhVSvwf.png"></img><p style="text-align: center;">帳號註冊、連結及親子樹機制</p></div>
+        </div>
+        <div class="columnProjectBlockImg">
+            <div style="width: 50%;" class="columnImg"><img style="height: 100%; width: 100%;" src="https://i.imgur.com/3O9KYxD.png"></img><p style="text-align: center;">帳號註冊、連結及親子樹機制</p></div>
+            <div style="width: 50%;" class="columnImg"><img style="height: 100%; width: 100%;" src="https://i.imgur.com/Jaqz4q5.png"></img><p style="text-align: center;">帳號註冊、連結及親子樹機制</p></div>
+            <!-- <img class="columnImg" src="https://i.imgur.com/rXK8Kg7.png"></img> -->
+        </div>
+
+        <p style="margin-top: 24px;" class="boldBriefing">2-3. Expert Interview</p>
+        <p class="briefing">請教瑜伽老師、心理學教授、工程與系統教授，來提供專業的建議，及確認產品的有效性及可行性。</p>
+        <ul style="margin-left: 32px;">
+            <li class="briefing" style="list-style-type: disc;">瑜伽老師：「因為考慮到體能狀況，普遍中年婦女都是做中低強度的運動。吃跟動的配合才能有比較好的運動成效。如果在運動時有伴陪同，會大幅增加運動動機。」</li>
+            <li class="briefing" style="list-style-type: disc;">發展心理學教授：「此產品可以幫助不住在一起的親子增進其親密關係以及連結。如果是自己喜歡的運動有在軟體裡面，會大大增加使用頻率。」</li>
+            <li class="briefing" style="list-style-type: disc;">工程與系統教授：「在 AR 遊戲的技術上，實驗室中已經有 AR 濾鏡能有效偵測人體的案例。」</li>
+        </ul>
+
+
+        <p class="boldBriefing">2-4. 1st usability test</p>
+        <p class="briefing">以三組符合目標族群的親子做易用性測試，來了解有效性、滿意度、以及做 SUS 易用性量表測驗。</p>
+        <div class="flex-container">
+            <div class="table-odd-column" style="background-color: rgba(255, 248, 232);">
+                <div class="table-content"></div>
+                <div class="table-content">易學性
+                    (滿分10分)</div>
+                <div class="table-content">目標用戶</div>
+                <div class="table-content">運動紀錄</div>
+                <div class="table-content">運動提醒</div>
+            </div>
+            <div class="table-even-column">
+                <div class="table-content">母子A</div>
+                <div class="table-content">居家健身</div>
+                <div class="table-content">疫情居家者</div>
+                <div class="table-content">v</div>
+                <div class="table-content">v</div>
+            </div>
+            <div class="table-odd-column" style="background-color: rgba(255, 248, 232);">
+                <div class="table-content">母子B</div>
+                <div class="table-content">居家健身</div>
+                <div class="table-content">疫情居家者</div>
+                <div class="table-content">v</div>
+                <div class="table-content">v</div>
+            </div>
+            <div class="table-even-column">
+                <div class="table-content">母子C</div>
+                <div class="table-content">居家健身</div>
+                <div class="table-content">女性</div>
+                <div class="table-content">v</div>
+                <div class="table-content">v</div>
+            </div>
+        </div>
+    </div>
+</article>
+<!-- <article>
+    <strong class="title" style="letter-spacing: 0.05em;">Usage scenarios</strong>
     <div class="project-block">
-        <strong class="title" style="letter-spacing: 0.05em;">Usage scenarios</strong>
         <p class="boldBriefing">Storyboard</p>
         <div class="img-block">
             <img src="https://i.imgur.com/kdYdIyU.png?1" width="100%" height="auto">
@@ -144,8 +293,8 @@
 </div>
 
 <article>
+    <strong class="title" style="letter-spacing: 0.05em;">Features</strong>
     <div class="project-block">
-        <strong class="title" style="letter-spacing: 0.05em;">Features</strong>
         <p class="boldBriefing">功能架構</p>
             <img src="https://i.imgur.com/AaqLeWw.png" width="75%" height="auto">
         <p class="briefing">以上是Kilight的功能架構圖，接下來會針對交流信箱、運動任務、親子樹三大功能更詳細的說明</p>
@@ -179,8 +328,8 @@
 </div>
 
 <article>
+    <strong class="title" style="letter-spacing: 0.05em;">Usability Test</strong>
     <div class="project-block">
-        <strong class="title" style="letter-spacing: 0.05em;">Usability Test</strong>
         <p class="boldBriefing">易用性及滿意度</p>
         <img src="https://i.imgur.com/kVJY0ca.png" width="60%" height="auto">
         <br><br>
@@ -194,18 +343,6 @@
     <hr>
 </div>
 
-
-<!--<article>-->
-<!--    <div class="project-block">-->
-<!--        <strong class="title" style="letter-spacing: 0.05em;">Prototype</strong>-->
-<!--        <p class="boldBriefing">點擊影片👇👇👇</p>-->
-<!--        <p class="briefing"></p>-->
-<!--    </div>-->
-
-<!--</article>-->
-<!--<div class="contentLine">-->
-<!--    <hr>-->
-<!--</div>-->
 
 <article>
     <div class="project-block">
@@ -233,7 +370,7 @@
         <p class="briefing">我們是在一場清大福科所舉辦的 UX 工作坊認識的，當初我鼓起勇氣問大家要不要一起去比賽...<br>
         至今我們還在不斷迭代這項產品，真的很幸運能遇到這群夥伴！<br>Thanks for watching~ </p>
     </div>
-</article>
+</article> -->
 <br>
 <br>
 
