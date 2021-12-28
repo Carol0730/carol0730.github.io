@@ -1,56 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="myPortfolio.css">
-    <title>Project-StudyCat</title>
-    <link rel="shortcut icon" href="favicon.ico">
-        
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;400&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=devide-width, initial-scale=1">
-</head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="myPortfolio.css" />
+    <link rel="stylesheet" type="text/css" href="header.css" />
+    <title>Carol Xiao</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;400&display=swap"
+        rel="stylesheet"
+    />
+    <meta name="viewport" content="width=devide-width, initial-scale=1" />
+    </head>
 
 <body>
-<script src="myPortfolio.js"></script>
 
 <header class="header">
-    <div class="header-inner">
-        <div class="header-left">
-            <h1 id="logo">
-                <a href="index.html">
-                    <img src="https://i.imgur.com/pyqhHzc.png" width="50px" height="50px">
-                </a>
-            </h1>
-            <div id="menu">
-                <ul class="headerUl">
-                    <li>
-                        <div class="dropDown">
-                            <a class="pagelink" href="index.html#Works">Works</a>
-                            <div class="dropDown_content">
-                                <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
-                                <a class="dropDownContent" href="Kilight.html">Kilight</a>
-                                <a class="dropDownContent" href="https://www.behance.net/gallery/99208945/-The-Little-Planet" target="_blank">Little Planet</a>
+    <!-- <div class="header-inner">
+      <div class="header-left">
+        <h1 id="logo">
+          <a href="index.html">
+            <img
+              src="https://i.imgur.com/pyqhHzc.png"
+              width="50px"
+              height="50px"
+            />
+          </a>
+        </h1>
+      </div> -->
 
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <a class="pagelink" href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a class="pagelink" href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing" target="_blank">Resume</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <a id="headerCTA" href="mailto:zhuyuanxiao0@gmail.com">
-            Contact Me
+      <nav class="navbar">
+        <a href="index.html">
+          <img
+            src="https://i.imgur.com/pyqhHzc.png"
+            width="50px"
+            height="50px"
+          />
         </a>
-    </div>
-</header>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <div class="dropDown">
+              <a class="nav-link" href="index.html#Works">Works</a>
+              <!-- <div class="dropDown_content">
+                <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
+                <a class="dropDownContent" href="Kilight.html">Kilight</a>
+                <a
+                  class="dropDownContent"
+                  href="https://www.behance.net/gallery/99208945/-The-Little-Planet"
+                  target="_blank"
+                  >Little Planet</a> -->
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li class="CTA nav-item">
+            <a id="headerCTA" href="mailto:zhuyuanxiao0@gmail.com">
+              Contact Me
+            </a>
+          </li>
+        </ul>
 
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
 <body>
 
 <section id="scFirstSection">
@@ -193,4 +222,5 @@
     </div>
 </footer>
 </body>
+<script src="myPortfolio.js"></script>
 </html>

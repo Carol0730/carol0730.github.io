@@ -1,85 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="myPortfolio.css">
-    <title>Carol Xiao</title>
-    <link rel="shortcut icon" href="favicon.ico">
-        
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;400&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=devide-width, initial-scale=1">
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="myPortfolio.css" />
+<link rel="stylesheet" type="text/css" href="header.css" />
+<title>Carol Xiao</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;400&display=swap"
+    rel="stylesheet"
+/>
+<meta name="viewport" content="width=devide-width, initial-scale=1" />
 </head>
 
-<body>
-<script src="myPortfolio.js"></script>
-
-<header class="header">
-    <div class="header-inner">
+  <body>
+    <header class="header">
+      <!-- <div class="header-inner">
         <div class="header-left">
-            <h1 id="logo">
-                <a href="index.html">
-                    <img src="https://i.imgur.com/pyqhHzc.png" width="50px" height="50px">
-                </a>
-            </h1>
-            <div id="menu">
-                <ul class="headerUl">
-                    <li>
-                        <div class="dropDown">
-                            <a class="pagelink" href="index.html#Works">Works</a>
-                            <div class="dropDown_content">
-                                <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
-                                <a class="dropDownContent" href="Kilight.html">Kilight</a>
-                                <a class="dropDownContent" href="https://www.behance.net/gallery/99208945/-The-Little-Planet" target="_blank">Little Planet</a>
+          <h1 id="logo">
+            <a href="index.html">
+              <img
+                src="https://i.imgur.com/pyqhHzc.png"
+                width="50px"
+                height="50px"
+              />
+            </a>
+          </h1>
+        </div> -->
 
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <a class="pagelink" href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a class="pagelink" href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing" target="_blank">Resume</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <a id="headerCTA" href="mailto:zhuyuanxiao0@gmail.com">
-            Contact Me
-        </a>
-    </div>
-</header>
+        <nav class="navbar">
+          <a href="index.html">
+            <img
+              src="https://i.imgur.com/pyqhHzc.png"
+              width="50px"
+              height="50px"
+            />
+          </a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <div class="dropDown">
+                <a class="nav-link" href="index.html#Works">Works</a>
+                <!-- <div class="dropDown_content">
+                  <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
+                  <a class="dropDownContent" href="Kilight.html">Kilight</a>
+                  <a
+                    class="dropDownContent"
+                    href="https://www.behance.net/gallery/99208945/-The-Little-Planet"
+                    target="_blank"
+                    >Little Planet</a> -->
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li class="CTA nav-item">
+              <a id="headerCTA" href="mailto:zhuyuanxiao0@gmail.com">
+                Contact Me
+              </a>
+            </li>
+          </ul>
 
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-<div id="firstSection">
-    <div class="firstSectionBlock"> 
-        <p class="nameTitle" style="letter-spacing:0.03em;">I am Carol.<br>A UIUX Designer!</p>
-        <p class="nameBriefing">I enjoy creating delightful,<br> human-centered digital experiences.</p>
+    <div id="firstSection">
+      <div class="firstSectionBlock">
+        <p class="nameTitle" style="letter-spacing: 0.03em">
+          I am Carol.<br />A UIUX Designer!
+        </p>
+        <p class="nameBriefing">
+          I enjoy creating delightful,<br />
+          human-centered digital experiences.
+        </p>
         <a id="CTA2-link" href="#Works">
-            <button class="CTA2">
+          <button class="CTA2">
             <p class="circle" aria-hidden="true">
-                <span class="icon arrow"></span>
+              <span class="icon arrow"></span>
             </p>
             <span class="button-text">See My Projects</span>
-            </button>
+          </button>
         </a>
+      </div>
+      <div class="firstSectionBlock">
+        <img src="https://i.imgur.com/aGRggUf.jpg" height="100%" width="100%" />
+      </div>
     </div>
-    <div class="firstSectionBlock">
-        <img src="https://i.imgur.com/aGRggUf.jpg" height="100%" width="100%">
-    </div>
-</div>
 
-<article>
-    <div id="Works"></div>
-    <h3 class="projectsTitle">My Projects</h3>
-    <div class="blog-card">
+    <article>
+      <div id="Works"></div>
+      <h3 class="projectsTitle">My Projects</h3>
+      <div class="blog-card">
         <div class="meta">
-          <div class="photo" style="background-image: url(https://i.imgur.com/wwGRRsD.png)"></div>
+          <div
+            class="photo"
+            style="background-image: url(https://i.imgur.com/wwGRRsD.png)"
+          ></div>
         </div>
         <div class="description">
           <h1>KILIGHT</h1>
-          <h2>UI/UX Design - Mobile AR App<br>2021 ST-TRANS ACTION AWARD</h2>
+          <h2>UI/UX Design - Mobile AR App<br />2021 ST-TRANS ACTION AWARD</h2>
           <p class="read-more">
             <a href="Kilight.html">Read More</a>
           </p>
@@ -88,31 +124,68 @@
 
       <div class="blog-card">
         <div class="description">
-            <h1>STUDY CAT</h1>
-            <h2>UI/UX Design - ChatBot<br>2020 Line Fresh Hackathon Award</h2>
-            <p class="read-more">
-              <a href="StudyCat.html">Read More</a>
-            </p>
+          <h1>STUDY CAT</h1>
+          <h2>UI/UX Design - ChatBot<br />2020 Line Fresh Hackathon Award</h2>
+          <p class="read-more">
+            <a href="StudyCat.html">Read More</a>
+          </p>
         </div>
         <div class="meta">
-          <div class="photo" style="background-image: url(https://i.imgur.com/nvXnslU.png)"></div>
+          <div
+            class="photo"
+            style="background-image: url(https://i.imgur.com/nvXnslU.png)"
+          ></div>
         </div>
       </div>
 
       <div class="blog-card">
         <div class="meta">
-          <div class="photo" style="background-image: url(https://i.imgur.com/wXl6aeZ.png)"></div>
+          <div
+            class="photo"
+            style="background-image: url(https://i.imgur.com/3weBnnA.png)"
+          ></div>
         </div>
         <div class="description">
-          <h1>Walking Workie</h1>
+          <h1>Little Planet</h1>
           <h2>Graphic Design - Storybook</h2>
-          <p class="read-more" style="color: dimgray;">
-            Coming Soon!!
+          <p class="read-more">
+            <a
+              href="https://www.behance.net/gallery/99208945/-The-Little-Planet"
+              target="_blank"
+              >To Behance</a
+            >
           </p>
         </div>
       </div>
-    
-    <!-- <div class="center-block">
+
+      <div class="blog-card">
+        <div class="meta">
+          <div
+            class="photo"
+            style="background-image: url(https://i.imgur.com/wXl6aeZ.png)"
+          ></div>
+        </div>
+        <div class="description">
+          <h1>Walking Workie</h1>
+          <h2>UI/UX Design - Tangible Product<br />2021 OPEN HCI Workshop</h2>
+          <p class="read-more" style="color: dimgray">Coming Soon!!</p>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="meta">
+          <div
+            class="photo"
+            style="background-image: url(https://i.imgur.com/JELkI4J.png)"
+          ></div>
+        </div>
+        <div class="description">
+          <h1>Daydreaming</h1>
+          <h2>Interaction Design - Creative Coding</h2>
+          <p class="read-more" style="color: dimgray">Coming Soon!!</p>
+        </div>
+      </div>
+      <!-- <div class="center-block">
         <div class="content">
             <p class="briefing">2020 Line Fresh 獲獎專案</p>
             <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Study Cat</strong><br>
@@ -126,32 +199,32 @@
         </a>
 
     </div> -->
-</article>
+    </article>
 
     <!-- <div class="contentLine">
         <hr>
     </div> -->
 
-<!--<EN article>-->
-<!--    <div  class="center-block">-->
-<!--        <div class="content">-->
-<!--            <p class="timeline">2020</p>-->
-<!--            <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Study Cat</strong>-->
-<!--            <p class="briefing">Aiming at students. We have developed a pomodoro software that can record task execution and help everyone develop concentration.</p>-->
-<!--            <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>-->
-<!--            <br>-->
-<!--            <a href="StudyCat.html" class="readMore">Read more ...</a>-->
-<!--        </div>-->
-<!--        <div class="contentImg">-->
-<!--            <img src="https://i.imgur.com/ymUOu9o.png" width="80%" height="auto">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="contentLine">-->
-<!--        <hr>-->
-<!--    </div>-->
-<!--</article>-->
+    <!--<EN article>-->
+    <!--    <div  class="center-block">-->
+    <!--        <div class="content">-->
+    <!--            <p class="timeline">2020</p>-->
+    <!--            <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Study Cat</strong>-->
+    <!--            <p class="briefing">Aiming at students. We have developed a pomodoro software that can record task execution and help everyone develop concentration.</p>-->
+    <!--            <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>-->
+    <!--            <br>-->
+    <!--            <a href="StudyCat.html" class="readMore">Read more ...</a>-->
+    <!--        </div>-->
+    <!--        <div class="contentImg">-->
+    <!--            <img src="https://i.imgur.com/ymUOu9o.png" width="80%" height="auto">-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--    <div class="contentLine">-->
+    <!--        <hr>-->
+    <!--    </div>-->
+    <!--</article>-->
 
-<!-- <div>
+    <!-- <div>
 
     <article>
         <div class="center-block">
@@ -171,66 +244,64 @@
         </div>
     </article>
 
-<!--<div>-->
+<--<div>-->
 
-<!--    <EN article>-->
-<!--        <div  class="center-block">-->
-<!--            <div class="content">-->
-<!--                <p class="timeline">2021 Current</p>-->
-<!--                <strong class="title" style="letter-spacing: 0.05em;">UX Researcher - Kilight</strong>-->
-<!--                <p class="briefing">To create connection between empty-nest period mother and child.</p>-->
-<!--                <strong class="hashtag" style="letter-spacing: 0.05em;">＃IOS APP #Parent-Child #UX Research</strong>-->
-<!--                <br>-->
-<!--                <a href="Kilight.html" class="readMore">Read more ...</a>-->
-<!--            </div>-->
-<!--            <div class="contentImg">-->
-<!--                <img src="https://i.imgur.com/NWKIq8P.png" width="50%" height="auto">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="contentLine">-->
-<!--            <hr>-->
-<!--        </div>-->
-<!--    </article>-->
+    <!--    <EN article>-->
+    <!--        <div  class="center-block">-->
+    <!--            <div class="content">-->
+    <!--                <p class="timeline">2021 Current</p>-->
+    <!--                <strong class="title" style="letter-spacing: 0.05em;">UX Researcher - Kilight</strong>-->
+    <!--                <p class="briefing">To create connection between empty-nest period mother and child.</p>-->
+    <!--                <strong class="hashtag" style="letter-spacing: 0.05em;">＃IOS APP #Parent-Child #UX Research</strong>-->
+    <!--                <br>-->
+    <!--                <a href="Kilight.html" class="readMore">Read more ...</a>-->
+    <!--            </div>-->
+    <!--            <div class="contentImg">-->
+    <!--                <img src="https://i.imgur.com/NWKIq8P.png" width="50%" height="auto">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="contentLine">-->
+    <!--            <hr>-->
+    <!--        </div>-->
+    <!--    </article>-->
 
+    <!--    <article>-->
+    <!--        <div  class="center-block">-->
+    <!--            <div class="content" style="flex-basis:60%">-->
+    <!--                <p class="timeline">2020</p>-->
+    <!--                <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Lockery</strong>-->
+    <!--                <p class="briefing">Making traveler who are eager to find lockers to get locker information immediately.</p>-->
+    <!--                <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>-->
+    <!--                <br>-->
+    <!--                <a href="StudyCat.html" class="readMore">Read more ...</a>-->
+    <!--            </div>-->
+    <!--            <div style="flex-basis:40%" class="contentImg">-->
+    <!--                <img src="https://i.imgur.com/fliNeyS.png" width="80%" height="auto">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="contentLine">-->
+    <!--            <hr>-->
+    <!--        </div>-->
+    <!--    </article>-->
 
-
-<!--    <article>-->
-<!--        <div  class="center-block">-->
-<!--            <div class="content" style="flex-basis:60%">-->
-<!--                <p class="timeline">2020</p>-->
-<!--                <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - Lockery</strong>-->
-<!--                <p class="briefing">Making traveler who are eager to find lockers to get locker information immediately.</p>-->
-<!--                <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>-->
-<!--                <br>-->
-<!--                <a href="StudyCat.html" class="readMore">Read more ...</a>-->
-<!--            </div>-->
-<!--            <div style="flex-basis:40%" class="contentImg">-->
-<!--                <img src="https://i.imgur.com/fliNeyS.png" width="80%" height="auto">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="contentLine">-->
-<!--            <hr>-->
-<!--        </div>-->
-<!--    </article>-->
-
-<!--    <article>-->
-<!--        <div  class="center-block">-->
-<!--            <div class="content">-->
-<!--                <p class="timeline">2018</p>-->
-<!--                <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - The Control Plate</strong>-->
-<!--                <p class="briefing">In order to solve the problem of too complicated technology products, we designed a system with magnets to control any device through APP.</p>-->
-<!--                <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>-->
-<!--                <br>-->
-<!--                <a href="" class="readMore">Read more ...</a>-->
-<!--            </div>-->
-<!--            <div class="contentImg">-->
-<!--                <img src="https://i.imgur.com/FxzDfFb.png" width="80%" height="auto">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="contentLine">-->
-<!--            <hr>-->
-<!--        </div>-->
-<!--    </article>-->
+    <!--    <article>-->
+    <!--        <div  class="center-block">-->
+    <!--            <div class="content">-->
+    <!--                <p class="timeline">2018</p>-->
+    <!--                <strong class="title" style="letter-spacing: 0.05em;">UI/UX Design - The Control Plate</strong>-->
+    <!--                <p class="briefing">In order to solve the problem of too complicated technology products, we designed a system with magnets to control any device through APP.</p>-->
+    <!--                <strong class="hashtag" style="letter-spacing: 0.05em;">＃Chat-bot #Pomodoro #UI Design #Front-end</strong>-->
+    <!--                <br>-->
+    <!--                <a href="" class="readMore">Read more ...</a>-->
+    <!--            </div>-->
+    <!--            <div class="contentImg">-->
+    <!--                <img src="https://i.imgur.com/FxzDfFb.png" width="80%" height="auto">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="contentLine">-->
+    <!--            <hr>-->
+    <!--        </div>-->
+    <!--    </article>-->
 
     <!-- <article>
         <div class="center-block">
@@ -251,38 +322,51 @@
 
 </div> -->
 
-<footer>
-    <div class="footerLeft">
+    <footer>
+      <div class="footerLeft">
         <p class="copyright">&copy; Carol Xiao 2021</p>
-        <a class="email" href="mailto:zhuyuanxiao0@gmail.com">zhuyuanxiao0@gmail.com</a>
-    </div>
-    <div class="footerRight">
-        <a class="linkedin" href="https://www.linkedin.com/in/carol-xiao-5779a1158/" target="_blank">
-            <img src="https://iconape.com/wp-content/files/yd/367773/svg/logo-linkedin-logo-icon-png-svg.png" width="50px" height="50px">
+        <a class="email" href="mailto:zhuyuanxiao0@gmail.com"
+          >zhuyuanxiao0@gmail.com</a
+        >
+      </div>
+      <div class="footerRight">
+        <a
+          class="linkedin"
+          href="https://www.linkedin.com/in/carol-xiao-5779a1158/"
+          target="_blank"
+        >
+          <img
+            src="https://iconape.com/wp-content/files/yd/367773/svg/logo-linkedin-logo-icon-png-svg.png"
+            width="50px"
+            height="50px"
+          />
         </a>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("a").on("click", function (event) {
+          if (this.hash !== "") {
+            event.preventDefault();
 
-      var hash = this.hash;
+            var hash = this.hash;
 
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 450, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              450,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
       });
-    } // End if
-  });
-});
-</script>
-
-</body>
+    </script>
+    <script src="myPortfolio.js"></script>
+  </body>
 </html>
