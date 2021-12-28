@@ -6,37 +6,26 @@
 }
 .header-inner{
     width: 100%;
-    /* height: 100px; */
     display: flex;
     justify-content: space-between;
     background-color:white;
     padding: 24px 32px;
     align-items: center;
     max-width: 1920px;
-    /* width: 90%; */
 }
 .header-left {
   display: flex;
   align-items: center;
 }
 /*hamburger*/
-footer{
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    background-color:#f1f1f1;
-}
+
 /*CTA*/
 #logo{
   width: 50px;
   height: 50px;
   margin-right: 32px;
 }
-#menu{
-  /* margin: auto 0 auto 0; */
-  /* flex-basis: 82%; */
-}
+
 .headerUl{
 width: 360px;
 display: grid;
@@ -46,15 +35,12 @@ grid-template-columns: 1fr 1fr 1fr;
 .pagelink{
 font-size: 18px;
 }
-#headerCTAPosition{
-    /* margin: auto 32px auto 0; */
-}
+
 #headerCTA{
     display: block;
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    margin: auto 0 auto 0;
     text-align: center;
-    /* width: 90%; */
+    width: auto;
     text-align: center;
     height: 40px;
     cursor: pointer;
@@ -63,6 +49,8 @@ font-size: 18px;
     background-color: #000000;
     border-radius: 5px;
     position: relative;
+    line-height: 40px;
+    padding: 8px;
 }
 #headerCTA:hover  {
     box-shadow:  4px 4px 10px 1px rgba(0, 0, 0, 0.2);;
@@ -83,10 +71,11 @@ strong.title{
 
 a:link, a:visited {
     text-decoration: none;
-    color: dimgray;
+    color: rgb(53, 31, 31);
+    
 }
 a:hover{
-    color: black;
+    color: rgb(49, 141, 216);
 }
 .dropDown {
     position: relative;
@@ -102,6 +91,31 @@ a:hover{
     padding: 12px 16px;
     z-index: 1;
 }
+
+footer{
+  display: flex;
+  background-color:#f1f1f1;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+}
+.footerLeft{
+  display: flex;
+  justify-content: flex-start;
+}
+.copyright{
+  margin: 24px;
+  color: #000000;
+}
+.email{
+ margin: 24px;
+ color: #000000;
+}
+.linkedin{
+  margin: 24px;
+}
+
 /*1920 too small, 768 below hamburger*/
 .dropDown:hover .dropDown_content {
     display: block;
@@ -113,21 +127,13 @@ a:hover{
 .dropDownContent{
     display: block;
 }
-img{
-    /* border-radius: 10%; */
-}
+
 
 /* full viewport*/
-#Works{
+/* #Works{
     height: 24px;
-}
-/**/
-.projectsTitle{
-    font-size:24px;
-    text-align: center;
-    margin-bottom: -40px;
-}
-/**/
+} */
+
 .blog-card {
     display: flex;
     flex-direction: column;
@@ -166,10 +172,7 @@ img{
     background: #fff;
     position: relative;
   }
-  button.CTA2 .button-text {
-    font-size:20px;
-    line-height: 48px;
-  } 
+
   .blog-card .description h1{
     margin-top: 24px;
     font-size: 24px;
@@ -239,8 +242,7 @@ hr{
 
 div.columnProjectBlock{
   margin:auto;
-  align-items:center;
-  justify-content:center;
+  align-items:flex-start;
   width:70%;
   height:auto;
   line-height:50px;
@@ -249,24 +251,22 @@ div.columnProjectBlock{
   display: flex;
 }
 .column {
-  flex: 50%;
-  padding: 16px 0;
+  /* flex: 50%;
+  padding: 16px 0; */
   text-align: left;
-  height: 260px;
+  height: auto;
 }
 
 
 div.sc-project-block{
   margin:auto;
   display: block;
-  align-items:center;
-  justify-content:center;
   width:70%;
   height:auto;
   line-height:50px;
-  text-align: center;
   border-radius: 10px;
 }
+
 
 @media  (min-width: 320px) {
   /**/
@@ -293,7 +293,7 @@ div.sc-project-block{
   margin:auto;
   display:flex;
   padding: 0 10%;
-  height:400px;
+  height:280px;
   justify-content: space-between;
   align-items: center;
 }
@@ -305,14 +305,29 @@ div.sc-project-block{
   }
   /**/
   .nameBriefing{
-    font-size:12px;
-    width: auto;
-    margin-top: 48px;
+    display: none;
   }
-  button.CTA2 .button-text {
-    font-size:14px;
-    line-height: 48px;
+  /**/
+  button.CTA2 {
+    font-size:12px;
+    margin-top: 16px;
+    line-height: 24px;
+    height: 24px;
+    padding: 0 8px 0 8px;
+    border: none;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 5px;
+    /* position: relative; */
   } 
+    /**/
+    .projectsTitle{
+      font-size:16px;
+      text-align: center;
+      margin-bottom: -40px;
+    }
+ 
+  /**/
   .blog-card {
     flex-direction: column;
     margin: 56px auto;
@@ -351,6 +366,24 @@ div.sc-project-block{
     padding: 24px 24px 24px 24px;
   }
   /**/
+  footer{
+    display: flex;
+    height: 320px;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    background-color:#f1f1f1;
+  }
+  .footerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  /**/
   #klFirstSection{
     display: flex;
     flex-direction: column;
@@ -360,6 +393,7 @@ div.sc-project-block{
     width: 100%;
     height: 300px;
     text-align:center;
+    margin-bottom: 40px;
   }
   .kltitle{
     padding: 40px;
@@ -372,7 +406,18 @@ div.sc-project-block{
     height: auto; 
     width: 300px;
   }
-
+  div.columnProjectBlock{
+    margin:auto;
+    align-items:flex-start;
+    justify-content:center;
+    width:90%;
+    height:auto;
+    line-height:50px;
+    text-align:center;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+  }
   div.project-block{
     margin:auto;
     display: block;
@@ -487,17 +532,24 @@ div.columnProjectBlockImg{
   font-weight: bolder;
   width: auto;
 }
-/**/
 .nameBriefing{
   font-size:20px;
   width: auto;
   margin-top: 48px;
 }
+
 /**/
 button.CTA2 .button-text {
   font-size:20px;
   line-height: 48px;
 } 
+/**/
+.projectsTitle{
+  font-size:24px;
+  text-align: center;
+  margin-bottom: -40px;
+}
+/**/
 .blog-card {
   flex-direction: row;
   margin:136px auto;
@@ -535,7 +587,23 @@ button.CTA2 .button-text {
 .pagelink{
   font-size: 18px;
 }
-
+/**/
+footer{
+  display: flex;
+  height: 140px;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  background-color:#f1f1f1;
+}
+.footerLeft{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 18px;
+}
 /**/
   #klFirstSection{
     display: flex;
@@ -557,7 +625,16 @@ button.CTA2 .button-text {
     height: 300px; 
     width: auto;
   }
-
+  div.columnProjectBlock{
+    margin:auto;
+    align-items:flex-start;
+    width:70%;
+    height:auto;
+    line-height:50px;
+    text-align:center;
+    border-radius: 10px;
+    display: flex;
+  }
   div.project-block{
     margin:auto;
     display: block;
@@ -775,7 +852,13 @@ button:hover .button-text {
   .pagelink{
     font-size: 18px;
   }
-  
+  /**/
+  .projectsTitle{
+    font-size:24px;
+    text-align: center;
+    margin-bottom: -40px;
+  }
+/**/
   /**/
     #klFirstSection{
       display: flex;
@@ -911,6 +994,10 @@ button:hover .button-text {
     .header{
         width: 2024px;
         margin: auto;
+    }
+    .inner-footer{
+      width: 2024px;
+      margin: auto;
     }
 }
 

@@ -15,42 +15,41 @@
 <script src="myPortfolio.js"></script>
 
 <header class="header">
-    <h1 id="logo" style="flex-basis:8%">
-        <a href="index.html">
-            <img src="https://i.imgur.com/pyqhHzc.png" width="50px" height="50px">
-        </a>
-    </h1>
-    <div id="menu" style="flex-basis:82%">
-        <ul class="headerUl">
-            <li>
-                <div class="dropDown">
-                    <a class="pagelink" href="index.html#Works">Works</a>
-                    <div class="dropDown_content">
-                        <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
-                        <a class="dropDownContent" href="Kilight.html">Kilight</a>
-                        <a class="dropDownContent" href="https://www.behance.net/gallery/99208945/-The-Little-Planet" target="_blank">Little Planet</a>
+    <div class="header-inner">
+        <div class="header-left">
+            <h1 id="logo">
+                <a href="index.html">
+                    <img src="https://i.imgur.com/pyqhHzc.png" width="50px" height="50px">
+                </a>
+            </h1>
+            <div id="menu">
+                <ul class="headerUl">
+                    <li>
+                        <div class="dropDown">
+                            <a class="pagelink" href="index.html#Works">Works</a>
+                            <div class="dropDown_content">
+                                <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
+                                <a class="dropDownContent" href="Kilight.html">Kilight</a>
+                                <a class="dropDownContent" href="https://www.behance.net/gallery/99208945/-The-Little-Planet" target="_blank">Little Planet</a>
 
-                    </div>
-                </div>
-            </li>
-            <li>
-                <a class="pagelink" href="about.html">About</a>
-            </li>
-            <li>
-                <a class="pagelink" href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing" target="_blank">Resume</a>
-            </li>
-        </ul>
-    </div>
-    <div id="headerCTAPosition" style="flex-basis:10%">
-        <div>
-            <a href="mailto:zhuyuanxiao0@gmail.com">
-                <button class="headerCTA" >
-                <span>Contact Me</span>
-                </button>
-            </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="pagelink" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="pagelink" href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+        <a id="headerCTA" href="mailto:zhuyuanxiao0@gmail.com">
+            Contact Me
+        </a>
     </div>
-    </header>
+</header>
+
 <body>
 
 <section id="klFirstSection">
@@ -71,13 +70,13 @@
         </div>
         <div class="column">
             <p class="boldBriefing">Idea</p>
-            <p class="briefing">以運動任務及交流信箱為親子共同任務，讓正經歷子女離巢期的中年婦女，增加機會聯繫親子間的關係。</p>
+            <p class="briefing">以運動遊戲為親子共同任務，讓正經歷子女離巢期的中年婦女，增加機會聯繫親子間的關係。</p>
             <p class="boldBriefing">My Role</p>
             <p class="briefing">Team Leader/UX Researcher/UI Designer</p>
         </div>
     </div>
-
 </article>
+
 <div class="contentLine">
     <hr>
 </div>
@@ -92,8 +91,8 @@
         <p class="boldBriefing">Stage 3 - Surface </p>
         <p class="briefing">Iterateion → Story board → Mockup → Prototype → 2nd usability test</p>
     </div>
-
 </article>
+
 <div class="contentLine">
     <hr>
 </div>
@@ -209,9 +208,11 @@
         </div>
     </div>
 </article>
+
 <div class="contentLine">
     <hr>
 </div>
+
 <article>
     <strong class="title" style="letter-spacing: 0.05em;">Stage 2 - Structure & Skeleton</strong>
     <div class="project-block"> 
@@ -247,141 +248,125 @@
         <div class="flex-container">
             <div class="table-odd-column" style="background-color: rgba(255, 248, 232);">
                 <div class="table-content"></div>
-                <div class="table-content">易學性
-                    (滿分10分)</div>
-                <div class="table-content">目標用戶</div>
-                <div class="table-content">運動紀錄</div>
-                <div class="table-content">運動提醒</div>
+                <div class="table-content">易學性(10分)</div>
+                <div class="table-content">有效性(10分)</div>
+                <div class="table-content">滿意度(10分)</div>
+                <div class="table-content">SUS量表(100分)</div>
             </div>
             <div class="table-even-column">
-                <div class="table-content">母子A</div>
-                <div class="table-content">居家健身</div>
-                <div class="table-content">疫情居家者</div>
-                <div class="table-content">v</div>
-                <div class="table-content">v</div>
+                <div class="table-content" style="line-height: 48px;">母子A</div>
+                <div class="table-content" style="line-height: 24px;">母：8 <br> 子：8</div>
+                <div class="table-content" style="line-height: 24px;">母：6 <br> 子：7</div>
+                <div class="table-content" style="line-height: 24px;">母：8 <br> 子：8</div>
+                <div class="table-content" style="line-height: 24px;">母：70.5<br> 子：72.5</div>
             </div>
             <div class="table-odd-column" style="background-color: rgba(255, 248, 232);">
-                <div class="table-content">母子B</div>
-                <div class="table-content">居家健身</div>
-                <div class="table-content">疫情居家者</div>
-                <div class="table-content">v</div>
-                <div class="table-content">v</div>
+                <div class="table-content" style="line-height: 48px;">母子B</div>
+                <div class="table-content" style="line-height: 24px;">母：7.5 <br> 子：7</div>
+                <div class="table-content" style="line-height: 24px;">母：6 <br> 子：8</div>
+                <div class="table-content" style="line-height: 24px;">母：6.5 <br> 子：8.5</div>
+                <div class="table-content" style="line-height: 24px;">母：77.5<br> 子：77.5</div>
             </div>
             <div class="table-even-column">
-                <div class="table-content">母子C</div>
-                <div class="table-content">居家健身</div>
-                <div class="table-content">女性</div>
-                <div class="table-content">v</div>
-                <div class="table-content">v</div>
+                <div class="table-content" style="line-height: 48px;">母子C</div>
+                <div class="table-content" style="line-height: 24px;">母：9.5 <br> 子：6</div>
+                <div class="table-content" style="line-height: 24px;">母：6.5 <br> 子：5</div>
+                <div class="table-content" style="line-height: 24px;">母：6 <br> 子：6</div>
+                <div class="table-content" style="line-height: 24px;">母：68<br> 子：78</div>
             </div>
         </div>
-    </div>
-</article>
-<!-- <article>
-    <strong class="title" style="letter-spacing: 0.05em;">Usage scenarios</strong>
-    <div class="project-block">
-        <p class="boldBriefing">Storyboard</p>
-        <div class="img-block">
-            <img src="https://i.imgur.com/kdYdIyU.png?1" width="100%" height="auto">
-        </div>
-        <p class="briefing"></p>
-    </div>
+        <p class="briefing" style="padding-top: 24px;">測驗後發現，有效性以及滿意度是我們需要努力的方向。綜合訪談者的建議，歸內出以下問題：</p>
+        <ul style="margin-left: 32px;">
+            <li class="briefing" style="list-style-type: disc; padding-bottom: 8px;">子女端使用APP的動機不足</li>
+            <li class="briefing" style="list-style-type: disc; padding-bottom: 8px;">針對親子間喜歡或習慣的運動不同</li>
+            <li class="briefing" style="list-style-type: disc; padding-bottom: 8px;">缺乏同儕影響力實體</li>
+            <li class="briefing" style="list-style-type: disc;">蔬果回饋對於媽媽方誘因不足</li>
+        </ul>
 
+    </div>
 </article>
+
 <div class="contentLine">
     <hr>
 </div>
 
 <article>
-    <strong class="title" style="letter-spacing: 0.05em;">Features</strong>
-    <div class="project-block">
-        <p class="boldBriefing">功能架構</p>
-            <img src="https://i.imgur.com/AaqLeWw.png" width="75%" height="auto">
-        <p class="briefing">以上是Kilight的功能架構圖，接下來會針對交流信箱、運動任務、親子樹三大功能更詳細的說明</p>
-        <br>
-        <p class="boldBriefing">交流信箱</p>
-        <div class="img-block">
-            <img src="https://i.imgur.com/5HlVtyn.png" width="75%" height="auto">
-            <img src="https://i.imgur.com/CTvI3Vk.png" width="100%" height="auto">
+    <strong class="title" style="letter-spacing: 0.05em;">Stage 3 - Surface</strong>
+    <div class="project-block"> 
+        <p class="boldBriefing">3-1. Iterateion</p>
+        <p class="briefing">依照第一次 Usability test 分析出的問題，經過腦力激盪以及文獻回顧後做出迭代：</p>
+        <ul style="margin-left: 32px;">
+            <li class="briefing" style="list-style-type: disc; padding-bottom: 8px;">將運動任務轉移為強調親子間互動的功能，將產品定位為互動遊戲而非專業的運動應用軟體</li>
+            <li class="briefing" style="list-style-type: disc;">更改遊戲回饋機制，來平衡兩方使用者的使用動機</li>
+        </ul>
+        
+        <p class="boldBriefing">3-2. Storyboard</p>
+        <p class="briefing">以下是使用者體驗 Kilight 的情境圖</p>
+        <div class="sc-project-block">
+            <img src="https://i.imgur.com/gSNgkbz.png" width="100%" height="auto">
         </div>
-        <p class="briefing">以上是交流信箱的架構及頁面，<br>此功能的發想來源為：親子間大多具有溝通上的問題、婦女期待與小孩像朋友般互動
-        </p>
-        <br>
-        <p class="boldBriefing">運動任務</p>
-        <div class="img-block">
-            <img src="https://i.imgur.com/lBaRnD9.png" width="75%" height="auto">
-            <img src="https://i.imgur.com/3JEQ5wa.png" width="100%" height="auto">
-        </div>
-        <p class="briefing">以上是運動任務的架構及頁面，<br>此功能的發想來源為：小孩與婦女皆需運動，因此發想以運動創造連結產生共感、中年婦女較習慣從事低強度運動並以運動舒緩更年期症狀</p>
-        <br>
-        <p class="boldBriefing">親子數</p>
-        <div class="img-block">
-            <img src="https://i.imgur.com/NjDHYGh.png" width="75%" height="auto">
-            <img src="https://i.imgur.com/M5iBkfv.png" width="100%" height="auto">
-        </div>
-        <p class="briefing">以上是親子樹的架構及頁面，<br>此功能的發想來源為：單純維繫家庭關係之產品的取代性高且黏著性較低、農場養成遊戲化系統、互動視覺化</p>
-    </div>
 
+        <p class="boldBriefing">3-3. Mockup</p>
+        <div class="sc-project-block">
+            <img src="https://i.imgur.com/WxiRWuG.png" width="100%" height="auto">
+        </div>
+        <p class="briefing" style="text-align: center;">註冊帳號、連結頁面</p>
+
+        <div class="sc-project-block">
+            <img src="https://i.imgur.com/eWK9Tqb.png" width="100%" height="auto">
+        </div>
+        <p class="briefing" style="text-align: center;">主頁面、選擇種子頁面</p>
+
+        <div class="sc-project-block">
+            <img src="https://i.imgur.com/rOJmG01.png" width="100%" height="auto">
+        </div>
+        <p class="briefing" style="text-align: center;">運動通話、運動遊戲頁面</p>
+
+        <div class="sc-project-block">
+            <img src="https://i.imgur.com/xS9uzEF.png" width="100%" height="auto">
+        </div>
+        <p class="briefing" style="text-align: center;">寄送禮物、換取獎勵頁面</p>
+
+        <p class="briefing">若要體驗互動原型，請點擊這裡：<a style="text-decoration: underline;" href="https://www.figma.com/proto/FwMaluhlEWvJCVRJQKTB6R/kilight-wireframe?node-id=2181%3A44438&scaling=scale-down&page-id=2181%3A38666&starting-point-node-id=2181%3A44438" target="_blank">Interactive Prototype</a></p>
+
+        <p class="boldBriefing">3-4. 2nd usability test</p>
+        <p class="briefing">與第一次易用性測驗不同，我們使用 5Es ( Effective, Efficient, Easy to Learn, Error Tolerant, Engaging ) 評估，在挑選受訪者時也更為謹慎，以符合有運動習慣以及雙方親子關係良好的母子來篩選回收問卷的受訪者，最終挑選出一對母子進行 Usability Test。</p>
+        <p class="briefing" style="padding-top: 24px;">測驗結果：</p>
+        <ul style="margin-left: 32px;">
+            <li class="briefing" style="list-style-type: disc; padding-bottom: 8px;">SUS 分數（滿分100分） - 小孩：95，媽媽：85</li>
+            <li class="briefing" style="list-style-type: disc; padding-bottom: 8px;">滿意度（滿分10分）- 小孩：7.5，媽媽：8</li>
+            <li class="briefing" style="list-style-type: disc;">媽媽回饋：「可以換東西，很實用，還可以親子互動。」</li>
+        </ul>
+    </div>
 </article>
+
 <div class="contentLine">
     <hr>
 </div>
 
 <article>
-    <strong class="title" style="letter-spacing: 0.05em;">Usability Test</strong>
+    <strong class="title" style="letter-spacing: 0.05em;">Conclusion</strong>
     <div class="project-block">
-        <p class="boldBriefing">易用性及滿意度</p>
-        <img src="https://i.imgur.com/kVJY0ca.png" width="60%" height="auto">
-        <br><br>
-        <p class="boldBriefing">易用性訪談分析</p>
-        <img src="https://i.imgur.com/5B8VVSi.png" width="85%" height="auto">
-        <p class="briefing">以三組符合目標組群的親子做易用性測試，<br>以了解易用性、滿意度、及確認使用流程。</p>
-    </div>
+        <p class="briefing">這是接觸 UIUX 領域以來，最完整的一次設計經驗，雖然中間很多不足的地方，團隊也繞了很多彎，但是很幸運我們還是有盡全力把 Kilight 這個專案走完，讓我學習到很多，超級感謝有 Kilight 的超讚隊友一起成長學習！</p>
 
+    </div>
 </article>
-<div class="contentLine">
-    <hr>
-</div>
 
 
-<article>
-    <div class="project-block">
-        <strong class="title" style="letter-spacing: 0.05em;">Result</strong>
-        <p class="boldBriefing">使用者專業人士回饋</p>
-        <p class="briefing">使用者：「以養成方式督促運動與親子關係，有趣。產品功能之間能夠互相搭配，玩遊戲的時候能夠有所真實收穫，大大降低使用APP的罪惡感」<br>
-            發展心理學教授：「可以幫助「不住在一起的親子」增進其親密關係以及連結。如果是自己喜歡的運動有在軟體裡面，會大大增加使用頻率。」
-        </p><br>
-        <p class="boldBriefing">未來發展</p>
-        <p class="briefing">我們將會以易用性收到的結果來改良產品的功能，<br>並將經過更多的調查及訪問來迭代出更符合使用者的產品，<br>期待這項產品能讓這個世界更好！
-        </p>
-    </div>
-
-</article>
-<div class="contentLine">
-    <hr>
-</div>
-
-
-<article>
-    <div class="project-block">
-        <p class="boldBriefing">這是Kilight團隊！</p>
-        <img src="https://i.imgur.com/hOzMWJx.jpg" width="50%" height="auto">
-        <br><br>
-        <p class="briefing">我們是在一場清大福科所舉辦的 UX 工作坊認識的，當初我鼓起勇氣問大家要不要一起去比賽...<br>
-        至今我們還在不斷迭代這項產品，真的很幸運能遇到這群夥伴！<br>Thanks for watching~ </p>
-    </div>
-</article> -->
-<br>
-<br>
+<a id="headerCTA" style="margin: 56px auto 56px auto; width: 80px; " href="mailto:zhuyuanxiao0@gmail.com">
+    Let's Talk!
+</a>
 
 <footer>
-    <br>
-    <div>
-        <a id="contactMe" href="mailto:zhuyuanxiao0@gmail.com"><span>zhuyuanxiao0@gmail.com</span></a>
+    <div class="footerLeft">
+        <p class="copyright">&copy; Carol Xiao 2021</p>
+        <a class="email" href="mailto:zhuyuanxiao0@gmail.com">zhuyuanxiao0@gmail.com</a>
     </div>
-    <br>
-    <p>&copy; CAROL XIAO 2021</p>
-    <br>
+    <div class="footerRight">
+        <a class="linkedin" href="https://www.linkedin.com/in/carol-xiao-5779a1158/" target="_blank">
+            <img src="https://iconape.com/wp-content/files/yd/367773/svg/logo-linkedin-logo-icon-png-svg.png" width="50px" height="50px">
+        </a>
+    </div>
 </footer>
 </body>
 </html>

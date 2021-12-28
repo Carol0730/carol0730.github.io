@@ -16,42 +16,41 @@
 <script src="myPortfolio.js"></script>
 
 <header class="header">
-    <h1 id="logo" style="flex-basis:8%">
-        <a href="index.html">
-            <img src="https://i.imgur.com/pyqhHzc.png" width="50px" height="50px">
-        </a>
-    </h1>
-    <div id="menu" style="flex-basis:82%">
-            <ul class="headerUl">
-                <li>
-                    <div class="dropDown">
-                        <a class="pagelink" href="index.html#Works">Works</a>
-                        <div class="dropDown_content">
-                            <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
-                            <a class="dropDownContent" href="Kilight.html">Kilight</a>
-                            <a class="dropDownContent" href="https://www.behance.net/gallery/99208945/-The-Little-Planet" target="_blank">Little Planet</a>
-    
+    <div class="header-inner">
+        <div class="header-left">
+            <h1 id="logo">
+                <a href="index.html">
+                    <img src="https://i.imgur.com/pyqhHzc.png" width="50px" height="50px">
+                </a>
+            </h1>
+            <div id="menu">
+                <ul class="headerUl">
+                    <li>
+                        <div class="dropDown">
+                            <a class="pagelink" href="index.html#Works">Works</a>
+                            <div class="dropDown_content">
+                                <a class="dropDownContent" href="StudyCat.html">Study Cat</a>
+                                <a class="dropDownContent" href="Kilight.html">Kilight</a>
+                                <a class="dropDownContent" href="https://www.behance.net/gallery/99208945/-The-Little-Planet" target="_blank">Little Planet</a>
+
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li>
-                    <a class="pagelink" href="about.html">About</a>
-                </li>
-                <li>
-                    <a class="pagelink" href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing" target="_blank">Resume</a>
-                </li>
-            </ul>
-    </div>
-    <div id="headerCTAPosition" style="flex-basis:10%">
-        <div>
-            <a href="mailto:zhuyuanxiao0@gmail.com">
-                <button class="headerCTA" >
-                <span>Contact Me</span>
-                </button>
-            </a>
+                    </li>
+                    <li>
+                        <a class="pagelink" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="pagelink" href="https://drive.google.com/file/d/1lMmcZGMxt4HpkdZCqqecUzVyzg5UcU9G/view?usp=sharing" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+        <a id="headerCTA" href="mailto:zhuyuanxiao0@gmail.com">
+            Contact Me
+        </a>
     </div>
-    </header>
+</header>
+
 <body>
 
 <section id="scFirstSection">
@@ -175,7 +174,7 @@
 <article>
     <div class="sc-project-block">
         <p class="briefing" style="letter-spacing: 0.06em;">這是Study Cat團隊！很感謝有這群朋友一起完成這個專案～<br>Here is the team!<br> I cannot do all these alone. I feel really grateful to work with them.</p>
-        <img src="https://i.imgur.com/rT3hYff.jpg?1" width="50%" height="auto">
+        <img src="https://i.imgur.com/rT3hYff.jpg?1" width="50%" height="auto" style="border-radius: 10px;">
         <p class="briefing">Thanks for watching~ </p>
     </div>
 </article>
@@ -183,13 +182,15 @@
 <br>
 
 <footer>
-    <br>
-    <div>
-        <a id="contactMe" href="mailto:zhuyuanxiao0@gmail.com"><span>zhuyuanxiao0@gmail.com</span></a>
+    <div class="footerLeft">
+        <p class="copyright">&copy; Carol Xiao 2021</p>
+        <a class="email" href="mailto:zhuyuanxiao0@gmail.com">zhuyuanxiao0@gmail.com</a>
     </div>
-    <br>
-    <p>&copy; CAROL XIAO 2021</p>
-    <br>
+    <div class="footerRight">
+        <a class="linkedin" href="https://www.linkedin.com/in/carol-xiao-5779a1158/" target="_blank">
+            <img src="https://iconape.com/wp-content/files/yd/367773/svg/logo-linkedin-logo-icon-png-svg.png" width="50px" height="50px">
+        </a>
+    </div>
 </footer>
 </body>
 </html>
