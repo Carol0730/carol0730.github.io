@@ -193,7 +193,7 @@ div.sc-project-block {
     margin: auto;
     display: flex;
     padding: 0 10%;
-    height: 280px;
+    height:auto+40px;
     justify-content: space-between;
     align-items: center;
   }
