@@ -197,11 +197,6 @@
   box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
-strong.title {
-  font-size: 24px;
-  margin: 40px;
-  line-height: 24px;
-}
 
 .firstSectionBlock {
   /* align-items: flex-end; */

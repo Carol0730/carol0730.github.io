@@ -77,6 +77,7 @@ footer {
 }
 .blog-card .photo {
   position: absolute;
+  /* border-top-left-radius: 15px; */
   top: 0;
   right: 0;
   bottom: 0;
@@ -302,6 +303,11 @@ div.sc-project-block {
     color: #81b85c;
   }
 
+  strong.title {
+    font-size: 18px;
+    margin: 16px;
+    line-height: 20px;
+  }
   .klimg {
     color: #81b85c;
     height: auto;
@@ -400,10 +406,13 @@ div.sc-project-block {
   }
   .table-content {
     flex: 10%;
-    line-height: 72px;
+    font-size: 12px;
+    line-height: 16px;
   }
   .table-content-img {
     flex: 10%;
+    font-size: 12px;
+    line-height: 16px;
   }
   .table-even-column {
     background-color: #fefffb;
@@ -525,6 +534,12 @@ div.sc-project-block {
     height: 300px;
     width: auto;
   }
+
+strong.title {
+  font-size: 24px;
+  margin: 40px;
+  line-height: 24px;
+}
   div.columnProjectBlock {
     margin: auto;
     align-items: flex-start;
@@ -763,6 +778,11 @@ div.sc-project-block {
     width: auto;
   }
 
+  strong.title {
+    font-size: 24px;
+    margin: 40px;
+    line-height: 24px;
+  }
   div.project-block {
     margin: auto;
     display: block;
@@ -843,9 +863,11 @@ div.sc-project-block {
   .table-content {
     flex: 10%;
     line-height: 72px;
+    font-size: 16px;
   }
   .table-content-img {
     flex: 10%;
+    font-size: 16px;
   }
 
   .table-even-column {
