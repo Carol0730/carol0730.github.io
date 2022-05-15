@@ -519,10 +519,7 @@ div.sc-project-block {
     padding: 24px 24px 24px 40px;
   }
   /**/
-  #menu {
-    /* margin: auto 0 auto 0;
-    flex-basis: 82%; */
-  }
+  
   .headerUl {
     width: 360px;
     display: grid;
@@ -788,7 +785,7 @@ strong.title {
   /**/
   #firstSection {
     background-color: #ffff;
-    width: 80%;
+    width: 70%;
     position: relative;
     margin: auto;
     display: flex;
