@@ -149,12 +149,12 @@ article {
   text-align: center;
 }
 div.contentLine {
-  width: 70%;
+  width: 50%;
   margin: 40px auto 40px auto;
 }
 /**/
 hr {
-  border: 1px solid #767676;
+  border: 0.5px solid #767676;
 }
 
 /**/
@@ -162,7 +162,7 @@ hr {
 div.columnProjectBlock {
   margin: auto;
   align-items: flex-start;
-  width: 70%;
+  width: 50%;
   height: auto;
   line-height: 50px;
   text-align: center;
@@ -184,6 +184,28 @@ div.sc-project-block {
   line-height: 50px;
   border-radius: 10px;
 }
+
+.Center3Rows {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.centerRowHighlight{
+  color:#32A4F4;
+}
+
+.centerRow{
+  margin: auto;
+  padding:16px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #EDF8FF;
+  box-shadow: 10px 13px 0px 0px #F8F8F8;
+}
+
+
+/* max 以下 min 以上 */
 
 @media (min-width: 320px) {
   /**/
@@ -392,7 +414,7 @@ div.sc-project-block {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: auto;
     flex-wrap: wrap;
   }
@@ -420,7 +442,21 @@ div.sc-project-block {
     flex: 10%;
     display: flex;
   }
+
+  div.contentLine {
+    width: 80%;
+  }
+  .Center3Rows {
+    display:flex;
+    flex-direction: column;
+  }
+  .centerRow{
+    width: 80%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
 }
+
 
 @media (min-width: 768px) {
   /**/
@@ -536,14 +572,14 @@ div.sc-project-block {
   }
 
 strong.title {
-  font-size: 24px;
+  font-size: 18px;
   margin: 40px;
   line-height: 24px;
 }
   div.columnProjectBlock {
     margin: auto;
     align-items: flex-start;
-    width: 70%;
+    width: 50%;
     height: auto;
     line-height: 50px;
     text-align: center;
@@ -555,7 +591,7 @@ strong.title {
     display: block;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 60%;
     height: auto;
     line-height: 32px;
     text-align: left;
@@ -565,13 +601,13 @@ strong.title {
   p.boldBriefing {
     font-weight: 500;
     color: black;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25px;
     padding: 16px 8px 8px 8px;
   }
   .briefing {
     font-family: "Noto Sans HK", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
     font-weight: 300;
     padding: 8px 8px 24px 8px;
@@ -580,7 +616,7 @@ strong.title {
   }
   p.centerBriefing {
     font-family: "Noto Sans HK", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
     font-weight: 300;
     padding: 8px 8px 24px 8px;
@@ -724,6 +760,29 @@ strong.title {
   button:hover .button-text {
     color: #fff;
   }
+  div.contentLine {
+    width: 50%;
+  }
+  .Center3Rows {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .centerRowHighlight{
+    color:#32A4F4;
+  }
+  
+  .centerRow{
+    width: 25%;
+    height:10%;
+    margin: auto;
+    padding:16px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #EDF8FF;
+    box-shadow: 10px 13px 0px 0px #F8F8F8;
+  }
 }
 @media (min-width: 1024px) {
   /**/
@@ -779,7 +838,7 @@ strong.title {
   }
 
   strong.title {
-    font-size: 24px;
+    font-size:20px;
     margin: 40px;
     line-height: 24px;
   }
@@ -788,7 +847,7 @@ strong.title {
     display: block;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 50%;
     height: auto;
     line-height: 32px;
     text-align: left;
@@ -798,13 +857,13 @@ strong.title {
   p.boldBriefing {
     font-weight: 500;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25px;
     padding: 16px 8px 8px 8px;
   }
   .briefing {
     font-family: "Noto Sans HK", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     font-weight: 300;
     padding: 8px 8px 24px 8px;
@@ -813,7 +872,7 @@ strong.title {
   }
   p.centerBriefing {
     font-family: "Noto Sans HK", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     font-weight: 300;
     padding: 8px 8px 24px 8px;
@@ -848,7 +907,7 @@ strong.title {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: auto;
     flex-wrap: nowrap;
   }
@@ -970,11 +1029,116 @@ p.tableContent {
   display: block;
   overflow: auto;
   width: 100%;
-  height: 400px;
+  /* height: 400px; */
 }
 .fixed_headers tbody tr:nth-child(even) {
   background-color: rgba(255, 248, 232);
 }
+
+
+
+/* 競品分析表格 */
+p.tableTitleContent {
+  font-family: "Noto Sans HK", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  /* padding: 8px 8px 24px 8px; */
+  width: 60%;
+  color: #6b4e4f;
+  margin: auto;
+}
+p.tableTitle {
+  font-family: "Noto Sans HK", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  text-align: left;
+}
+p.tableContent {
+  font-family: "Noto Sans HK", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #000000;
+  justify-content: space-between;
+}
+
+.competitiveAnalysisTable {
+  margin: 24px auto 24px auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.competitiveAnalysisTable th {
+  padding: auto;
+  text-align: center;
+}
+.competitiveAnalysisTable td.tableContent {
+  font-family: "Noto Sans HK", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #000000;
+}
+.competitiveAnalysisTable td {
+  text-align: left;
+}
+.competitiveAnalysisTable td:nth-child(1),
+.competitiveAnalysisTable th:nth-child(1) {
+  padding: 8px 16px;
+  width: 15%;
+}
+.competitiveAnalysisTable td:nth-child(2),
+.competitiveAnalysisTable th:nth-child(2) {
+  padding: 16px;
+  width: 30%;
+}
+.competitiveAnalysisTable td:nth-child(3),
+.competitiveAnalysisTable th:nth-child(3) {
+  padding: 16px;
+  width: 30%;
+}
+.competitiveAnalysisTable td:nth-child(4),
+.competitiveAnalysisTable th:nth-child(4) {
+  padding: 16px;
+  width: 30%;
+}
+.competitiveAnalysisTable thead {
+  background-color: rgba(255, 248, 232);
+  color: #000000;
+  justify-content: space-between;
+  line-height: normal;
+}
+.competitiveAnalysisTable thead tr {
+  display: flex;
+  position: relative;
+}
+.competitiveAnalysisTable tbody {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  /* height: 400px; scroll */
+}
+.competitiveAnalysisTable tbody tr:nth-child(even) {
+  background-color: rgba(255, 248, 232);
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  
+  }
+  
+  .video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;left: 0;
+  width: 100%;
+  height: 100%;}
+
 .old_ie_wrapper {
   height: 400px;
   width: 750px;
