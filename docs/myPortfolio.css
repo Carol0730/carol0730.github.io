@@ -126,6 +126,7 @@ footer {
   margin: auto;
   background: #fff;
   position: relative;
+  width: 100%;
 }
 
 .blog-card .description h1 {
@@ -1323,4 +1324,5 @@ main {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 1.5rem;
+  box-sizing: border-box;
 }
