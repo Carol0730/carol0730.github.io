@@ -3,9 +3,11 @@
   padding: 0;
   font-family: sans-serif, Helvetica, Arial;
 }
+
 li {
   list-style: none;
 }
+
 img {
   vertical-align: top;
   border: none;
@@ -19,18 +21,22 @@ footer {
   width: 100%;
   margin: auto;
 }
+
 .footerLeft {
   display: flex;
   justify-content: flex-start;
 }
+
 .copyright {
   margin: 24px;
   color: #000000;
 }
+
 .email {
   margin: 24px;
   color: #000000;
 }
+
 .linkedin {
   margin: 24px;
 }
@@ -43,19 +49,22 @@ footer {
 .dropDown_content a:hover {
   background-color: #f1f1f1;
 }
+
 .dropDownContent {
   display: block;
 }
 
-.img-left{
+.img-left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.row-img{
+
+.row-img {
   display: flex;
   flex-direction: row;
 }
+
 /* full viewport*/
 /* #Works{
     height: 24px;
@@ -74,16 +83,20 @@ footer {
   width: 70%;
   height: auto;
 }
+
 .blog-card .meta {
   flex-basis: 50%;
   height: auto;
 }
+
 .blog-card .description {
   flex-basis: 50%;
 }
+
 .blog-card .meta {
   position: relative;
 }
+
 .blog-card .photowBG {
   position: absolute;
   /* border-top-left-radius: 15px; */
@@ -96,6 +109,7 @@ footer {
   background-repeat: no-repeat;
   transition: transform 0.2s;
 }
+
 .blog-card .photoxBG {
   position: absolute;
   /* border-top-left-radius: 15px; */
@@ -107,6 +121,7 @@ footer {
   background-position: center;
   transition: transform 0.2s;
 }
+
 .blog-card .description {
   margin: auto;
   background: #fff;
@@ -118,11 +133,13 @@ footer {
   font-size: 24px;
   padding-left: 40px;
 }
+
 .blog-card .description .read-more {
   margin-bottom: 24px;
   font-size: 16px;
   padding-left: 40px;
 }
+
 .blog-card .description h2 {
   font-size: 16px;
   font-weight: 300;
@@ -130,6 +147,7 @@ footer {
   letter-spacing: 2px;
   padding: 24px 24px 24px 40px;
 }
+
 .description {
   text-align: left;
 }
@@ -142,10 +160,12 @@ footer {
   vertical-align: middle;
   transition: margin 0.3s, opacity 0.3s;
 }
+
 .blog-card .description .read-more a:hover:after {
   margin-left: 5px;
   opacity: 1;
 }
+
 /*full viewport*/
 
 .scFirstSection {
@@ -164,16 +184,19 @@ footer {
   height: 350px;
   text-align: center;
 }
+
 /*full viewport*/
 section,
 article {
   align-items: center;
   text-align: center;
 }
+
 div.contentLine {
   width: 50%;
   margin: 40px auto 40px auto;
 }
+
 /**/
 hr {
   border: 0.5px solid #767676;
@@ -191,6 +214,7 @@ div.columnProjectBlock {
   border-radius: 10px;
   display: flex;
 }
+
 .column {
   /* flex: 50%;
   padding: 16px 0; */
@@ -208,19 +232,19 @@ div.sc-project-block {
 }
 
 .Center3Rows {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.centerRowHighlight{
-  color:#32A4F4;
-  padding:8px;
+.centerRowHighlight {
+  color: #32A4F4;
+  padding: 8px;
 }
 
-.centerRow{
+.centerRow {
   margin: auto;
-  padding:16px;
+  padding: 16px;
   text-align: center;
   border-radius: 6px;
   background-color: #EDF8FF;
@@ -231,6 +255,7 @@ div.sc-project-block {
 /* max 以下 min 以上 */
 
 @media (min-width: 320px) {
+
   /**/
   #firstSection {
     background-color: #ffff;
@@ -239,20 +264,23 @@ div.sc-project-block {
     margin: auto;
     display: flex;
     padding: 0 10%;
-    height:auto+40px;
+    height: auto+40px;
     justify-content: space-between;
     align-items: center;
   }
+
   .nameTitle {
     color: #000000;
     font-size: 20px;
     font-weight: bolder;
     width: auto;
   }
+
   /**/
   .nameBriefing {
     display: none;
   }
+
   /**/
   button.CTA2 {
     display: none;
@@ -267,6 +295,7 @@ div.sc-project-block {
     border-radius: 5px; */
     /* position: relative; */
   }
+
   /**/
   .projectsTitle {
     font-size: 18px;
@@ -283,6 +312,7 @@ div.sc-project-block {
     height: 400px;
     display: flex;
   }
+
   .blog-card .photo {
     position: absolute;
     top: 0;
@@ -294,19 +324,23 @@ div.sc-project-block {
     transition: transform 0.2s;
     order: 1;
   }
+
   .blog-card .description {
     order: 2;
   }
+
   .blog-card .description h1 {
     margin-top: 24px;
     font-size: 16px;
     padding-left: 24px;
   }
+
   .blog-card .description .read-more {
     margin-bottom: 24px;
     font-size: 12px;
     padding-left: 24px;
   }
+
   .blog-card .description h2 {
     font-size: 12px;
     font-weight: 300;
@@ -314,6 +348,7 @@ div.sc-project-block {
     letter-spacing: 2px;
     padding: 24px 24px 24px 24px;
   }
+
   /**/
   footer {
     display: flex;
@@ -325,6 +360,7 @@ div.sc-project-block {
     width: 100%;
     background-color: #f1f1f1;
   }
+
   .footerLeft {
     display: flex;
     flex-direction: column;
@@ -332,6 +368,7 @@ div.sc-project-block {
     align-items: center;
     font-size: 14px;
   }
+
   /**/
   #klFirstSection {
     display: flex;
@@ -344,6 +381,7 @@ div.sc-project-block {
     text-align: center;
     margin-bottom: 40px;
   }
+
   .kltitle {
     padding: 40px;
     font-size: 40px;
@@ -355,11 +393,13 @@ div.sc-project-block {
     margin: 16px;
     line-height: 20px;
   }
+
   .klimg {
     color: #81b85c;
     height: auto;
     width: 300px;
   }
+
   div.columnProjectBlock {
     margin: auto;
     align-items: flex-start;
@@ -372,6 +412,7 @@ div.sc-project-block {
     flex-direction: column;
     display: flex;
   }
+
   div.project-block {
     margin: auto;
     display: block;
@@ -391,6 +432,7 @@ div.sc-project-block {
     line-height: 25px;
     padding: 16px 8px 8px 8px;
   }
+
   .briefing {
     font-family: "Noto Sans HK", sans-serif;
     font-size: 14px;
@@ -400,6 +442,7 @@ div.sc-project-block {
     letter-spacing: 2px;
     color: #000000;
   }
+
   p.centerBriefing {
     font-family: "Noto Sans HK", sans-serif;
     font-size: 14px;
@@ -423,15 +466,18 @@ div.sc-project-block {
     display: flex;
     flex-wrap: wrap;
   }
+
   .columnImgWithBorder {
     flex: 50%;
     margin: 16px;
     border: 0.5px solid #000;
   }
+
   .columnImg {
     flex: 50%;
     margin: 16px;
   }
+
   /*KLtable2*/
 
   .flex-container {
@@ -451,16 +497,19 @@ div.sc-project-block {
     display: flex;
     flex-direction: row;
   }
+
   .table-content {
     flex: 10%;
     font-size: 12px;
     line-height: 16px;
   }
+
   .table-content-img {
     flex: 10%;
     font-size: 12px;
     line-height: 16px;
   }
+
   .table-even-column {
     background-color: #fefffb;
     padding: 16px;
@@ -471,22 +520,26 @@ div.sc-project-block {
   div.contentLine {
     width: 80%;
   }
+
   .Center3Rows {
-    display:flex;
+    display: flex;
     flex-direction: column;
   }
-  .centerRow{
+
+  .centerRow {
     width: 80%;
     margin-top: 12px;
     margin-bottom: 12px;
   }
-  .yahooAppPersona{
-    width:80%;
+
+  .yahooAppPersona {
+    width: 80%;
   }
 }
 
 
 @media (min-width: 768px) {
+
   /**/
   #firstSection {
     background-color: #ffff;
@@ -499,12 +552,14 @@ div.sc-project-block {
     justify-content: space-between;
     align-items: center;
   }
+
   .nameTitle {
     color: #000000;
     font-size: 32px;
     font-weight: bolder;
     width: auto;
   }
+
   .nameBriefing {
     font-size: 20px;
     width: auto;
@@ -516,12 +571,14 @@ div.sc-project-block {
     font-size: 20px;
     line-height: 48px;
   }
+
   /**/
   .projectsTitle {
     font-size: 24px;
     text-align: center;
     margin-bottom: -40px;
   }
+
   /**/
   .blog-card {
     flex-direction: row;
@@ -529,16 +586,19 @@ div.sc-project-block {
     width: 70%;
     height: 400px;
   }
+
   .blog-card .description h1 {
     margin-top: 24px;
     font-size: 24px;
     padding-left: 40px;
   }
+
   .blog-card .description .read-more {
     margin-bottom: 24px;
     font-size: 16px;
     padding-left: 40px;
   }
+
   .blog-card .description h2 {
     font-size: 16px;
     font-weight: 300;
@@ -546,6 +606,7 @@ div.sc-project-block {
     letter-spacing: 2px;
     padding: 24px 24px 24px 40px;
   }
+
   /**/
   .projectsTitle {
     font-size: 24px;
@@ -553,17 +614,20 @@ div.sc-project-block {
     margin-bottom: -40px;
     padding-top: 0px;
   }
+
   /**/
-  
+
   .headerUl {
     width: 360px;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .pagelink {
     font-size: 18px;
   }
+
   /**/
   footer {
     display: flex;
@@ -575,12 +639,14 @@ div.sc-project-block {
     width: 100%;
     background-color: #f1f1f1;
   }
+
   .footerLeft {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     font-size: 18px;
   }
+
   /**/
   #klFirstSection {
     display: flex;
@@ -592,22 +658,25 @@ div.sc-project-block {
     height: 450px;
     text-align: center;
   }
+
   .kltitle {
     padding: 40px;
     font-size: 40px;
     color: #81b85c;
   }
+
   .klimg {
     color: #81b85c;
     height: 300px;
     width: auto;
   }
 
-strong.title {
-  font-size: 18px;
-  margin: 40px;
-  line-height: 24px;
-}
+  strong.title {
+    font-size: 18px;
+    margin: 40px;
+    line-height: 24px;
+  }
+
   div.columnProjectBlock {
     margin: auto;
     align-items: flex-start;
@@ -618,6 +687,7 @@ strong.title {
     border-radius: 10px;
     display: flex;
   }
+
   div.project-block {
     margin: auto;
     display: block;
@@ -637,6 +707,7 @@ strong.title {
     line-height: 25px;
     padding: 16px 8px 8px 8px;
   }
+
   .briefing {
     font-family: "Noto Sans HK", sans-serif;
     font-size: 16px;
@@ -646,6 +717,7 @@ strong.title {
     letter-spacing: 2px;
     color: #000000;
   }
+
   p.centerBriefing {
     font-family: "Noto Sans HK", sans-serif;
     font-size: 16px;
@@ -669,6 +741,7 @@ strong.title {
     display: flex;
     flex-wrap: nowrap;
   }
+
   .columnImgWithBorder {
     flex: 50%;
     margin: 16px;
@@ -676,6 +749,7 @@ strong.title {
     /* height: 340px; */
     border: 0.5px solid #000;
   }
+
   /*KLtable2*/
 
   .flex-container {
@@ -695,10 +769,12 @@ strong.title {
     display: flex;
     flex-direction: row;
   }
+
   .table-content {
     flex: 10%;
     line-height: 72px;
   }
+
   .table-content-img {
     flex: 10%;
   }
@@ -729,6 +805,7 @@ strong.title {
     max-width: 300px;
     height: auto;
   }
+
   /*no hover effect*/
   button.CTA2 .circle {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -740,6 +817,7 @@ strong.title {
     background: #000000;
     border-radius: 1.625rem;
   }
+
   button.CTA2 .circle .icon {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
@@ -748,6 +826,7 @@ strong.title {
     margin: auto;
     background: #fff;
   }
+
   button.CTA2 .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 0.625rem;
@@ -755,6 +834,7 @@ strong.title {
     height: 0.125rem;
     background: none;
   }
+
   button.CTA2 .circle .icon.arrow::before {
     position: absolute;
     content: "";
@@ -781,9 +861,11 @@ strong.title {
     line-height: 48px;
     text-align: center;
   }
+
   button:hover .circle {
     width: 100%;
   }
+
   button:hover .circle .icon.arrow {
     background: #fff;
     transform: translate(1rem, 0);
@@ -792,31 +874,35 @@ strong.title {
   button:hover .button-text {
     color: #fff;
   }
+
   div.contentLine {
     width: 50%;
   }
+
   .Center3Rows {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
-  .centerRowHighlight{
-    color:#32A4F4;
+
+  .centerRowHighlight {
+    color: #32A4F4;
   }
-  
-  .centerRow{
+
+  .centerRow {
     width: 25%;
     /* height:10%;
     margin: auto; */
-    padding:16px;
+    padding: 16px;
     text-align: center;
     border-radius: 6px;
     background-color: #EDF8FF;
     box-shadow: 10px 13px 0px 0px #F8F8F8;
   }
 }
+
 @media (min-width: 1024px) {
+
   /**/
   #firstSection {
     background-color: #ffff;
@@ -829,23 +915,27 @@ strong.title {
     justify-content: space-between;
     align-items: center;
   }
+
   .nameTitle {
     color: #000000;
     font-size: 48px;
     font-weight: bolder;
     width: auto;
   }
+
   /**/
   .nameBriefing {
     font-size: 24px;
     width: auto;
     margin-top: 48px;
   }
+
   .projectsTitle {
     font-size: 28px;
     text-align: center;
     margin-bottom: -40px;
   }
+
   /**/
   /**/
   #klFirstSection {
@@ -858,11 +948,13 @@ strong.title {
     height: 450px;
     text-align: center;
   }
+
   .kltitle {
     padding: 40px;
     font-size: 40px;
     color: #81b85c;
   }
+
   .klimg {
     color: #81b85c;
     height: 300px;
@@ -870,10 +962,11 @@ strong.title {
   }
 
   strong.title {
-    font-size:20px;
+    font-size: 20px;
     margin: 40px;
     line-height: 24px;
   }
+
   div.project-block {
     margin: auto;
     display: block;
@@ -893,6 +986,7 @@ strong.title {
     line-height: 25px;
     padding: 16px 8px 8px 8px;
   }
+
   .briefing {
     font-family: "Noto Sans HK", sans-serif;
     font-size: 18px;
@@ -902,6 +996,7 @@ strong.title {
     letter-spacing: 2px;
     color: #000000;
   }
+
   p.centerBriefing {
     font-family: "Noto Sans HK", sans-serif;
     font-size: 18px;
@@ -925,6 +1020,7 @@ strong.title {
     display: flex;
     flex-wrap: nowrap;
   }
+
   .columnImgWithBorder {
     flex: 50%;
     margin: 16px;
@@ -932,6 +1028,7 @@ strong.title {
     /* height: 340px; */
     border: 0.5px solid #000;
   }
+
   /*KLtable2*/
 
   .flex-container {
@@ -951,11 +1048,13 @@ strong.title {
     display: flex;
     flex-direction: row;
   }
+
   .table-content {
     flex: 10%;
     line-height: 72px;
     font-size: 16px;
   }
+
   .table-content-img {
     flex: 10%;
     font-size: 16px;
@@ -967,23 +1066,28 @@ strong.title {
     flex: 10%;
     display: flex;
   }
-  .yahooAppPersona{
-    width:60%;
+
+  .yahooAppPersona {
+    width: 60%;
   }
 }
+
 @media (min-width: 1920px) {
   #firstSection {
     width: 1536px;
   }
+
   .blog-card {
     flex-direction: row;
     width: 1344px;
     height: 400px;
   }
+
   .blog-card .meta {
     flex-basis: 50%;
     height: auto;
   }
+
   .blog-card .description {
     flex-basis: 50%;
   }
@@ -1000,6 +1104,7 @@ p.tableTitleContent {
   color: #6b4e4f;
   margin: auto;
 }
+
 p.tableTitle {
   font-family: "Noto Sans HK", sans-serif;
   font-size: 16px;
@@ -1008,6 +1113,7 @@ p.tableTitle {
   color: #000000;
   text-align: left;
 }
+
 p.tableContent {
   font-family: "Noto Sans HK", sans-serif;
   font-size: 16px;
@@ -1022,11 +1128,13 @@ p.tableContent {
   table-layout: fixed;
   border-collapse: collapse;
 }
+
 .fixed_headers th {
   padding: auto;
   text-align: center;
   height: 200px;
 }
+
 .fixed_headers td.tableContent {
   font-family: "Noto Sans HK", sans-serif;
   font-size: 16px;
@@ -1034,38 +1142,46 @@ p.tableContent {
   font-weight: 300;
   color: #000000;
 }
+
 .fixed_headers td {
   text-align: left;
 }
+
 .fixed_headers td:nth-child(1),
 .fixed_headers th:nth-child(1) {
   padding: 8px 16px;
   width: 10% - 64px;
 }
+
 .fixed_headers td:nth-child(2),
 .fixed_headers th:nth-child(2) {
   padding: 16px;
   width: 45%;
 }
+
 .fixed_headers td:nth-child(3),
 .fixed_headers th:nth-child(3) {
   padding: 16px;
   width: 45%;
 }
+
 .fixed_headers thead {
   background-color: rgba(255, 248, 232);
   color: #000000;
 }
+
 .fixed_headers thead tr {
   display: block;
   position: relative;
 }
+
 .fixed_headers tbody {
   display: block;
   overflow: auto;
   width: 100%;
   /* height: 400px; */
 }
+
 .fixed_headers tbody tr:nth-child(even) {
   background-color: rgba(255, 248, 232);
 }
@@ -1083,6 +1199,7 @@ p.tableTitleContent {
   color: #6b4e4f;
   margin: auto;
 }
+
 p.tableTitle {
   font-family: "Noto Sans HK", sans-serif;
   font-size: 16px;
@@ -1091,6 +1208,7 @@ p.tableTitle {
   color: #000000;
   text-align: left;
 }
+
 p.tableContent {
   font-family: "Noto Sans HK", sans-serif;
   font-size: 16px;
@@ -1105,10 +1223,12 @@ p.tableContent {
   table-layout: fixed;
   border-collapse: collapse;
 }
+
 .competitiveAnalysisTable th {
   padding: auto;
   text-align: center;
 }
+
 .competitiveAnalysisTable td.tableContent {
   font-family: "Noto Sans HK", sans-serif;
   font-size: 16px;
@@ -1116,45 +1236,54 @@ p.tableContent {
   font-weight: 300;
   color: #000000;
 }
+
 .competitiveAnalysisTable td {
   text-align: left;
 }
+
 .competitiveAnalysisTable td:nth-child(1),
 .competitiveAnalysisTable th:nth-child(1) {
   padding: 8px 16px;
   width: 15%;
 }
+
 .competitiveAnalysisTable td:nth-child(2),
 .competitiveAnalysisTable th:nth-child(2) {
   padding: 16px;
   width: 30%;
 }
+
 .competitiveAnalysisTable td:nth-child(3),
 .competitiveAnalysisTable th:nth-child(3) {
   padding: 16px;
   width: 30%;
 }
+
 .competitiveAnalysisTable td:nth-child(4),
 .competitiveAnalysisTable th:nth-child(4) {
   padding: 16px;
   width: 30%;
 }
+
 .competitiveAnalysisTable thead {
   background-color: rgba(255, 248, 232);
   color: #000000;
   justify-content: space-between;
   line-height: normal;
 }
+
 .competitiveAnalysisTable thead tr {
   display: flex;
   position: relative;
 }
+
 .competitiveAnalysisTable tbody {
   display: block;
   overflow: auto;
   width: 100%;
   /* height: 400px; scroll */
 }
+
 .competitiveAnalysisTable tbody tr:nth-child(even) {
   background-color: rgba(255, 248, 232);
 }
@@ -1165,14 +1294,18 @@ p.tableContent {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
-  
-  }
-  
-  .video-container iframe, .video-container object, .video-container embed {
+
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
   position: absolute;
-  top: 0;left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;}
+  height: 100%;
+}
 
 .old_ie_wrapper {
   height: 400px;
@@ -1180,6 +1313,7 @@ p.tableContent {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
 .old_ie_wrapper tbody {
   height: auto;
 }
