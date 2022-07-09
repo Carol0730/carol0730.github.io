@@ -193,7 +193,7 @@ article {
 }
 
 div.contentLine {
-  width: 50%;
+  /* width: 50%; */
   margin: 40px auto 40px auto;
 }
 
@@ -225,7 +225,7 @@ div.columnProjectBlock {
 div.sc-project-block {
   margin: auto;
   display: block;
-  width: 70%;
+  /* width: 70%; */
   height: auto;
   line-height: 50px;
   border-radius: 10px;
@@ -418,7 +418,7 @@ div.sc-project-block {
     display: block;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    /* width: 90%; */
     height: auto;
     line-height: 32px;
     text-align: left;
@@ -517,9 +517,9 @@ div.sc-project-block {
     display: flex;
   }
 
-  div.contentLine {
+  /* div.contentLine {
     width: 80%;
-  }
+  } */
 
   .Center3Rows {
     display: flex;
@@ -693,7 +693,7 @@ div.sc-project-block {
     display: block;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    /* width: 60%; */
     height: auto;
     line-height: 32px;
     text-align: left;
@@ -874,10 +874,10 @@ div.sc-project-block {
   button:hover .button-text {
     color: #fff;
   }
-
+/* 
   div.contentLine {
     width: 50%;
-  }
+  } */
 
   .Center3Rows {
     display: flex;
@@ -972,7 +972,7 @@ div.sc-project-block {
     display: block;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    /* width: 50%; */
     height: auto;
     line-height: 32px;
     text-align: left;
@@ -1316,4 +1316,11 @@ p.tableContent {
 
 .old_ie_wrapper tbody {
   height: auto;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
