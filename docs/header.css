@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
 }
+
 .header-inner {
   width: 100%;
   display: flex;
@@ -11,19 +12,23 @@
   align-items: center;
   max-width: 1920px;
 }
+
 .header-left {
   display: flex;
   align-items: center;
 }
+
 .headerUl {
   width: 360px;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .pagelink {
   font-size: 18px;
 }
+
 @media (min-width: 1024px) {
   .headerUl {
     width: 360px;
@@ -31,15 +36,18 @@
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .pagelink {
     font-size: 18px;
   }
 }
+
 @media (min-width: 2024px) {
   .header {
     width: 2024px;
     margin: auto;
   }
+
   .inner-footer {
     width: 2024px;
     margin: auto;
@@ -72,6 +80,7 @@
   display: block;
   cursor: pointer;
 }
+
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
@@ -100,18 +109,22 @@
   padding: 1rem 1.5rem;
   width: 100%;
 }
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-item {
   margin-left: 5rem;
   font-size: 18px;
 }
+
 .hamburger {
   display: none;
 }
+
 .bar {
   display: block;
   width: 25px;
@@ -135,13 +148,16 @@
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
+
   .nav-menu.active {
     left: 0;
     z-index: 2;
   }
+
   .nav-item {
     margin: 2.5rem 0;
   }
+
   .hamburger {
     display: block;
     cursor: pointer;
@@ -149,6 +165,7 @@
 }
 
 @media (min-width: 768px) {
+
   /**/
   .nav-menu {
     position: fixed;
@@ -162,13 +179,16 @@
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
+
   .nav-menu.active {
     left: 0;
     z-index: 2;
   }
+
   .nav-item {
     margin: 2.5rem 0;
   }
+
   .hamburger {
     display: block;
     cursor: pointer;
@@ -193,6 +213,7 @@
   padding: 8px;
   /* margin-left: 5rem; */
 }
+
 #headerCTA:hover {
   box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.2);
 }
@@ -209,14 +230,17 @@ a:visited {
   text-decoration: none;
   color: rgb(3, 2, 2);
 }
+
 a:hover {
   color: rgb(49, 141, 216);
 }
+
 .dropDown {
   position: relative;
   display: inline-block;
   margin: auto;
 }
+
 .dropDown_content {
   display: none;
   position: absolute;
