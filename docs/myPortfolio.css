@@ -285,7 +285,10 @@ div.sc-project-block {
 
   /**/
   .nameBriefing {
-    display: none;
+    font-size: 10px;
+    margin-top: 12px;
+    width: auto;
+    /* display: none; */
   }
 
   /**/
@@ -570,7 +573,7 @@ div.sc-project-block {
   .nameBriefing {
     font-size: 20px;
     width: auto;
-    margin-top: 48px;
+    margin-top: 16px;
   }
 
   /**/
@@ -940,7 +943,7 @@ div.sc-project-block {
   .nameBriefing {
     font-size: 24px;
     width: auto;
-    margin-top: 48px;
+    margin-top: 24px;
   }
 
   .projectsTitle {
